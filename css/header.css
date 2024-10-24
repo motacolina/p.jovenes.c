@@ -1,0 +1,24 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    color: antiquewhite;
+}
+
+nav .menu ul a {
+font-weight: 200;
+padding-right: 50px;
+
+}
+
+.menu ul a:hover{
+    color: rgb(214, 27, 27);
+}
+
+@media (max-width: 700px){
+    header{
+        flex-direction: column;
+    }
+}

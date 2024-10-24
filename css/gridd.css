@@ -1,0 +1,23 @@
+header{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+    
+}
+
+.logo{
+    justify-self: start;
+    align-items: center;
+}
+
+.menu{
+    justify-self: end;
+
+}
+
+.titulacion{
+font-size: x-large;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+align-content: center;
+}
+

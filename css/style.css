@@ -1,0 +1,78 @@
+@import "colors.css";
+@import "gridd.css";
+@import "header.css";
+@import "relation.css";
+@import "logo.css";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+   text-decoration: none; 
+   color: white;
+}
+
+nav li {
+display: inline block;
+position: relative;
+}
+
+.submenu{
+display: none;
+position: absolute;
+background-color: aqua;
+min-width: 150px;
+box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+z-index: 1;
+}
+
+.submenu li {
+    display: block;
+    padding: 10px;
+}
+
+.submenu li:hover {
+    background-color: #f1f1f1;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+nav li a {
+display: block;
+padding: 10px;
+text-decoration: none;
+}
+
+nav .submenu {
+    display: none;
+    position: relative;
+    background: #114e84;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+main{
+    background-image: url(images.jpg/edificio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 300px;
+
+}
+
+.menu{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
+}
+/*
+.social-media {
+    align-items: center; 
+}
+*/
+.social-media {
+    align-content: center;
+}
