@@ -55,7 +55,7 @@ nav .submenu {
 }
 
 main{
-    background-image: url(images.jpg/edificio.jpg);
+    background-image: url(/assets/img.jpg/edificio.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
