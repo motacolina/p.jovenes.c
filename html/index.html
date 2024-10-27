@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Divisas</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="/assets/iconos.png/favicon.png">
 </head>
 <body>
                                   <!--Logo y Titulo-->
     <header>
         <div class="logo">
                 <img src="/assets/iconos.png/logo.png" width=100px height=100px alt="alusion de marca">
-                <div class="titulo"> <h1>Divisas</h1></div>
-                
+                <div class="titulo">
+                     <h1>Divisas</h1></div>
          </div>
                                   <!--menu-->
             <nav>
@@ -42,6 +43,31 @@
                             </ul>
                         </ul>
                         <a href="">Inicio de Sesión</a>
+                        <h2>Registro</h2> <br>
+                        <label for="nombre">Nombres:</label>
+                        <input type="text" name="nombre" placeholder="Ingresa tu nombre" required><br><br>
+                        <label for="">Apellidos:</label>
+                        <input type="text" lastname="apellidos" placeholder="Ingresa tus apellidos" required><br><br>
+                        <label for="email">e-mail:</label>
+                        <input type="email" name="email" placeholder="Ingresa correo" required><br><br>
+                        <label for="contra">Contraseña:</label>
+                        <input type="password" name="contra" placeholder="Ingresa contraseña" required><br><br>
+                        <label for="sexo">Género:</label><br>
+                        <label for="masculino">Masculino</label>
+                        <input type="radio" name="sexo" value="masculino" id="masculino" ><br><br>
+                        <label for="femenino">femenino</label>
+                        <input type="radio" name="sexo" value="femenino" id="femenino"><br><br>
+                        <label for="otro">Otro</label>
+                        <input type="radio" name="sexo" value="otro" id="otro"><br><br>
+                        <label for="fechan">Fecha de Nacimiento</label>
+                        <input type="date" name="fechan"><br><br>
+                        <label for="document">Documento</label>
+                        <input type="number" name="document" id=""><br><br>
+                        <label for="opcion">Acepto terminos y condiciones</label>
+                        <input type="checkbox" name="opcion"><br><br>
+
+
+
                     </ul> 
                 </div>
             </nav>
@@ -49,17 +75,29 @@
                        <!--Inicio de main-->
     <main>
         <div class="titulacion">
-            <h2><strong>Bienvenido</strong></h2>
-            <p>Abre tu mente hacia una nueva manera de realizar tus operaciones.</p><br><br>
-        </div>
-        <section>
-            <p>Divisas surge asumiendo el reto de innovar modalidades de conexióna niveles internacionales nunca antes vistos, con una lista de aliados que respaldan este proposito ya que estan presentes en gran variedad de paises de América y Europa; logrando así un servicio estratégico para depósitos y transferencias</p>
-        </section>
+            <h2><strong>Bienvenido</strong></h2><br><br>
 
-        <div class="apertura">
-        <h2>¿Quienes somos?</h2><br>
-        <p>Somos una plataforma versátil, adaptada a las necesidades actuales en cuanto a operaciones bancarias, por lo cual contamos con el apoyo de las más reconocidas entidades bancarias con amplio reconocimiento y trayectoria logrando así una cobertura en mas de 160 paises. Creada con el principal propósito de reconectar de manera eficiente, segura y transparente a través de modalidades específicas que cubren un amplio margen de situaciones, solucionando de este modo posibles impedimentos y brindando en un solo lugar las mejores políticas del tipo de cambio medio del mercado y condiciones pactadas por las entidades Bancarias y Fiscales.</p><br><br><br>
+            <div class="subtitulo">
+                <p>Abre tu mente hacia una nueva manera de realizar tus operaciones.</p><br><br>
+            </div>
+          
+            <section class="descripcion">
+                <p>Divisas surge asumiendo el reto de innovar modalidades de conexióna niveles internacionales nunca antes vistos, con una lista de aliados que respaldan este proposito ya que estan presentes en gran variedad de paises de América y Europa; logrando así un servicio estratégico para depósitos y transferencias</p>
+             </section>
         </div>
+        
+                        <!--Quienes somos -->
+                        <div class="contenido-inicial">
+                            <div class="primero">
+                                <img src="/assets/img.jpg/quienes somos.jpg" width="200px" height="auto" alt="representacion de Inicio">
+                    
+                             <h2>¿Quienes somos?</h2><br>
+                                 <div class="informacion">
+                                        <p>Somos una plataforma versátil, adaptada a las necesidades actuales en cuanto a operaciones bancarias, por lo cual contamos con el apoyo de las más reconocidas entidades bancarias con amplio reconocimiento y trayectoria logrando así una cobertura en mas de 160 paises. Creada con el principal propósito de reconectar de manera eficiente, segura y transparente a través de modalidades específicas que cubren un amplio margen de situaciones, solucionando de este modo posibles impedimentos y brindando en un solo lugar las mejores políticas del tipo de cambio medio del mercado y condiciones pactadas por las entidades Bancarias y Fiscales.</p><br><br><br>
+                                 </div>
+                            </div>
+                        </div>
+       
 
         <section class="patrocinadores">
             <h2>Bancos Aliados</h2>
@@ -72,10 +110,7 @@
             <img src="/assets/img.jpg/american.jpg" width="90px" height="90px" alt="representacion de American Express">
             <img src="/assets/img.jpg/masterc.jpg" width="90px" height="90px" alt="representacion de mastercard">
             <img src="/assets/img.jpg/n.visa.jpg" width="90px" height="90px" alt="representacion de visa">
-
-
         </section>
-        
     </main> 
                         <!-- Inicio de footer-->
     <footer class="finalitation">
@@ -94,5 +129,7 @@
             </div>
         </div>
     </footer>
+    <script src="/script/index.js"></script>
+
 </body>
 </html>

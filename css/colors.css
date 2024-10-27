@@ -1,3 +1,20 @@
 :root{
     --color: #171414;
 }
+
+a {
+ color: white;   
+}
+
+.descipcion {
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.submenu li:hover {
+    background-color: #f1f1f1;
+}
+
+
+

@@ -2,7 +2,6 @@ header{
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-gap: 20px;
-    
 }
 
 .logo{
@@ -12,12 +11,23 @@ header{
 
 .menu{
     justify-self: end;
-
 }
 
-.titulacion{
-font-size: x-large;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-align-content: center;
+.titulacion {
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-content: center;
+    justify-self: end;
 }
+
+.titulo {
+    margin-left: 40px;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr;
+    grid-gap: 5px;
+}
+
 
