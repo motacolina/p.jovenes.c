@@ -65,7 +65,7 @@ main .titulacion {
     display: flex;
     font-size: larger;
     text-align: baseline;
-    color: white;
+    color:black;
     text-shadow: 9px 9px 9px 9px black;
  }
 
@@ -81,5 +81,6 @@ main .titulacion {
 }
 
 .social-media {
-    align-content: center;
+    align-items: center;
+    justify-items: center;
 }
