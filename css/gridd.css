@@ -30,4 +30,14 @@ main {
     grid-gap: 5px;
 }
 
+.titulacion {
+    grid-template-rows: titulacion;
+}
 
+.contenido-inicial {
+    grid-template-rows: contenido-inicial;
+}
+
+.patrocinadores {
+    grid-template-rows: patrocinadores;
+}

@@ -58,14 +58,15 @@ main .titulacion {
     background-repeat: no-repeat;
     background-position: center;
     min-height: 300px;
+
 }
 
 .descripcion {
     display: flex;
     font-size: larger;
-    align-content: end;
+    text-align: baseline;
     color: white;
-    text-shadow: 9px 9px 9px 9px black; 
+    text-shadow: 9px 9px 9px 9px black;
  }
 
 .subtitulo {
