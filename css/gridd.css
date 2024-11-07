@@ -1,9 +1,12 @@
-header {
+header.logo {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-column-end: 10px;
+    grid-template-columns: auto auto;
+    grid-column-end: 50%;
 }
 
+.logo div{
+
+}
 main {
     display: grid;
     grid-template-rows: 1fr;

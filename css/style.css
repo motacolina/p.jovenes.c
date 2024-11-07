@@ -4,6 +4,8 @@
 @import "header.css";
 @import "relation.css";
 @import "main1.css";
+@import "transf.css";
+@import "depo.css";
 
 * {
     margin: 0;
