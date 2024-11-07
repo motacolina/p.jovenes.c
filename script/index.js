@@ -1,3 +1,4 @@
+//
 const menuItems = document.querySelectorAll('.menu ul li:not(.submenu)');
 menuItems.forEach(item => {
     item.addEventListener('click', (event) => {
