@@ -5,7 +5,7 @@ header.logo {
 }
 
 .logo div{
-
+align-items: start;
 }
 main {
     display: grid;
