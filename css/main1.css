@@ -1,34 +1,21 @@
-main .titulacion {
-    padding-top: 20px;
-    padding-left: 10px;
-    background-image: url(/assets/img.jpg/edificio.jpg);
+.titulacion {
+    height: 420px;
+    background-image: url(/assets/img.jpg/fondo.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    min-width: 100px; ;
-    height: 400px;
-    font-size: larger;
 }
 
-.titulacion {
-    font-size: x-large;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    align-content: center;
-    justify-self: end;
+.titulacion h1 {
+    margin-left: 20px;
+    padding-top: 50px;
+}
 
 .subtitulo {
-    display: flex;
-    padding: 30px 10px 15px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif cursive;
-    color: black;
+    margin-left: 20px;
+    margin-top: 40px;
 }
 
-.descripcion {
-    display: flex;
-    padding: 15px 10px 5px 10px;
-    font-size: large;
+.titulacion .descripcion {
+    margin-left: 20px;
+    margin-top: 40px;
     text-align: justify;
-    align-items: end;
-    color: black;
-    text-shadow: 10px white;
- }
+}

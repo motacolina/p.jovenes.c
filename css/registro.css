@@ -1,0 +1,44 @@
+.apartado {
+    display: grid;
+    grid-area: 'auto auto' ;
+}
+
+.apartado {
+    grid-area: apartado;
+}
+
+.deco {
+    grid-area: deco;
+    object-fit: cover;
+}
+
+.apartado li {
+    margin-top: 10px;
+    margin-left: 130px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.apartado li a {
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    color: blue;
+    margin: 10px 50px 10px;
+}
+
+ul .menus-secundarios {
+    color: white;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-size: 25px;
+}
+
+.menus-secundarios li {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    font-size: 20px;
+}

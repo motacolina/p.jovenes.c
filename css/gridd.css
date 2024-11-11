@@ -1,14 +1,24 @@
-header.logo {
+header {
     display: grid;
-    grid-template-columns: auto auto;
-    grid-column-end: 50%;
+    grid-template-areas: 'logo titulo nav';
 }
 
-.logo div{
-align-items: start;
+.logo {
+    grid-area: logo;
 }
-main {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-gap: 5px;
+
+.titulo {
+    grid-area: titulo;
+}
+
+.nav {
+    grid-area: nav;
+}
+
+@media only screen and (max-width:480px){
+    header{
+        grid-template-areas: 'logo'
+                             'titulo'
+                             'nav';
+    }
 }
