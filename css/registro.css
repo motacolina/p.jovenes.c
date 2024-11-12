@@ -1,9 +1,9 @@
-.apartado {
+#apartado {
     display: grid;
     grid-area: 'auto auto' ;
 }
 
-.apartado {
+#apartado {
     grid-area: apartado;
 }
 
@@ -12,33 +12,52 @@
     object-fit: cover;
 }
 
-.apartado li {
+#apartado {
+    background: lightslategray;
+    padding: 0 40px;
+    border: solid black .5px;
+    border-radius: 9px;
     margin-top: 10px;
-    margin-left: 130px;
-    margin-bottom: 20px;
+}
+.parrafo {
+    position: absolute;
+    transform: translate(-50%);
+    top: 0;
+    bottom: 5px;
+    left: 250px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    margin: 0;
+}
+
+#apartado {
+    color: rgba(5, 18, 39, 0.835);
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 18px;
     box-sizing: border-box;
 }
 
-.apartado li a {
-    font-size: 45px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-decoration: none;
-    color: blue;
-    margin: 10px 50px 10px;
-}
-
-ul .menus-secundarios {
-    color: white;
-    margin-left: 90px;
-    margin-right: 90px;
-    font-size: 25px;
-}
-
-.menus-secundarios li {
+.opcion li {
     margin: 0;
     padding: 10px;
     display: flex;
     text-decoration: none;
     justify-content: space-between;
-    font-size: 20px;
+    font-size: 18px;
+}
+
+button:hover {
+background-color: rgb(35, 136, 203);
+}
+
+button {
+    border-radius: 10px;
+    border-color: rgb(60, 60, 71);
+    box-sizing: 10px;
+}
+
+p a {
+    color: red;
 }

@@ -1,0 +1,45 @@
+
+body {
+    background-image: url(/assets/img.jpg/inicio\ sesion.jpg);
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#inf-ppal {
+    width: 400px;
+    height: 300px;
+    background-color: lightskyblue;
+    border-radius: 10px;
+}
+
+p {
+    color: white;
+    font-size: larger;
+}
+
+.start {
+    margin: 50px 100px;
+}
+
+#inf-ppal input{
+    margin-top: 50px;
+}
+
+#inf-ppal button {
+    background-color: red;
+    width: 100px;
+    color: white;
+    margin-top: 40px;
+    margin-left: 140px;
+}
+
+#inf-ppal a {
+    color: rgb(32, 46, 171);
+    font-size: larger;
+
+}
+
+#inf-ppal label {
+    margin-left: 90px;
+}
+

@@ -1,4 +1,5 @@
-@import"carrusel.css"
+@import "usuario.css";
+@import "saludo.css"
 @import "main2.css";
 @import "gridd.css";
 @import "header.css";
@@ -7,6 +8,7 @@
 @import "transf.css";
 @import "depo.css";
 @import "registro.css";
+@import "restab.css";
 
 * {
     margin: 0;
