@@ -20,7 +20,7 @@ document.getElementById_("apartado").addEventListener("submit", function (event)
 
     localStorage.setItem("usuarioRegistrado", JSON.stringify(modelo));
 
-    window.location.href ="usuario.html";
+    window.location.href ="/html/usuario.html";
 });
     
     
