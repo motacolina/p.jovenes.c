@@ -1,14 +1,8 @@
-@import "usuario.css";
-@import "saludo.css"
-@import "main2.css";
+
 @import "gridd.css";
 @import "header.css";
-@import "relation.css";
 @import "main1.css";
-@import "transf.css";
-@import "depo.css";
-@import "registro.css";
-@import "restab.css";
+@import "footer.css";
 
 * {
     margin: 0;

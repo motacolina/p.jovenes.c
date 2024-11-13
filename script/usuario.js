@@ -1,10 +1,11 @@
-document.getElementById_("apartado").addEventListener("submit", function (event) { event.preventDefault();
+document.getElementById("inf-ppal").addEventListener("submit", function (event) { 
+    event.preventDefault();
 
-    const emailLogin = document.getElementById("emailLogin").value;
-    const passLogin = document.getElementById("passLogin").value;
+    const emailLogin = document.getElementById("envio").value;
+    const passLogin = document.getElementById("contra").value;
     const usuarioRegistrado = JSON.parse(localStorage.getItem("usuarioRegistrado"));
     
-    if ( usuarioRegistrado.correo === emailLogin && usuarioRegistrado.contrasena === passLogin){
+    if ( usuarioRegistrado.correo === emailLogin && usuarioRegistrado.password === passLogin){
         
         localStorage.setItem("nombreUsuario", usuarioRegistrado.nombre);
 

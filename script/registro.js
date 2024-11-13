@@ -1,4 +1,5 @@
-document.getElementById_("apartado").addEventListener("submit", function (event) { event.preventDefault();
+document.getElementById("apartado").addEventListener("submit", function (event) { 
+    event.preventDefault();
 
     const nombre = document.getElementById("nombre").value;
     const apellidos = document.getElementById("apellidos").value;
@@ -11,16 +12,16 @@ document.getElementById_("apartado").addEventListener("submit", function (event)
     const modelo ={
         nombre: nombre,
         apellido: apellidos,
-        correo: email,
-        password: contra,
-        genero: sexo,
+        correo: correo,
+        password: password,
+        genero: genero,
         fecha: fecha,
-        documento: docum,
+        documento: documento
     };
 
     localStorage.setItem("usuarioRegistrado", JSON.stringify(modelo));
 
-    window.location.href ="/html/usuario.html";
+    window.location.href ="../html/usuario.html";
 });
     
     

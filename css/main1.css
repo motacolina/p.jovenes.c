@@ -1,23 +1,27 @@
 .titulacion {
-    height: 420px;
+    height: 26.25rem;
     background-image: url(/assets/img.jpg/fondo.jpg);
     background-size: cover;
 }
 
 .titulacion h1 {
-    margin-left: 20px;
-    padding-top: 50px;
+    margin-left: 1.25rem;
+    padding-top: 3.125rem;
+    color: aqua;
 }
 
 .subtitulo {
-    margin-left: 20px;
-    margin-top: 40px;
+    margin-left: 1.25rem;
+    margin-top: 2.5rem;
+    color: rgb(28, 217, 22);
 }
 
 .titulacion .descripcion {
-    margin-left: 20px;
-    margin-top: 40px;
+    margin-left: 1.25rem;
+    margin-top: 2.5rem;
     text-align: justify;
+    margin-right: 1.25rem;
+    color: antiquewhite;
 }
 
 .texto {

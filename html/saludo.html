@@ -4,19 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saludo</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/saludo.css">
 </head>
 <body>
-    <h1 id="saludo"></h1>
+    <main>
+        <h1 id="saludo"></h1>
 
-    <script>
-        const nombreUsuario = localStorage.getItem("nombreUsuario");
+        <script>
+            const nombreUsuario = localStorage.getItem("nombreUsuario");
+    
+            if (nombreUsuario){
+                document.getElementById("saludo").innerHTML= `Bienvenido ${nombreUsuario}`;
+            } else{
+                document.getElementById("saludo").textContent = "Bienvenido";
+            }
+        </script>
+    </main>
+    <footer>
 
-        if (nombreUsuario){
-            document.getElementById("saludo"). textContent= 'Bienvenido ${nombreUsuario}';
-        } else{
-            document.getElementById("saludo").textContent = "Bienvenido";
-        }
-    </script>
+    </footer>
+    
 </body>
 </html>
