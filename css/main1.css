@@ -7,13 +7,15 @@
 .titulacion h1 {
     margin-left: 1.25rem;
     padding-top: 3.125rem;
-    color: aqua;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .subtitulo {
     margin-left: 1.25rem;
     margin-top: 2.5rem;
-    color: rgb(28, 217, 22);
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .titulacion .descripcion {
@@ -21,9 +23,6 @@
     margin-top: 2.5rem;
     text-align: justify;
     margin-right: 1.25rem;
-    color: antiquewhite;
-}
-
-.texto {
-    
+    color: rgb(12, 14, 20);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

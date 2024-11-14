@@ -1,8 +1,7 @@
-
-@import "gridd.css";
 @import "header.css";
-@import "main1.css";
+@import "gridd.css";
 @import "footer.css";
+@import "main1.css";
 
 * {
     margin: 0;
@@ -15,5 +14,8 @@ body {
     padding: 0;
 }
 
-
+.fotografias ul.acti {
+    color: black;
+    list-style: circle;
+}
 
