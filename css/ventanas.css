@@ -1,0 +1,59 @@
+.contenido1 {
+    background: white;
+    height: 600px;
+    width: 1000px;
+    position: relative;
+    display: none;
+}
+
+.pop {
+    background: gray;
+    height: 510px;
+    width: 1000px;
+    position: relative;
+    display: none;
+}
+
+.remix {
+    background: yellowgreen;
+    height: 400px;
+    width: 1000px;
+    position: relative;
+    display: none;
+}
+
+body {
+    width: 400px;
+    height: 400px;
+    background: rgb(51, 51, 190);
+    position: absolute;
+}
+
+.ventana {
+    position: absolute;
+    left: 980px;
+    top: 5px;
+    display: block;
+}
+
+.venta {
+    position: absolute;
+    display: block;
+    left: 980px;
+    top: 5px;
+}
+
+.ventan {
+    position: absolute;
+    left: 980px;
+    top: 5px;
+    display: block;
+}
+
+.submenu li a {
+    color: wheat;
+}
+
+li {
+    list-style: none;
+}
