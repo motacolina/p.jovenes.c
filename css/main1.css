@@ -5,17 +5,20 @@
 }
 
 .titulacion h1 {
-    margin-left: 1.25rem;
+    margin-left: 30.25rem;
     padding-top: 3.125rem;
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 2px black;
+    font-size: 50px;
 }
 
 .subtitulo {
     margin-left: 1.25rem;
     margin-top: 2.5rem;
-    color: black;
+    color: gray;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 2px black;
 }
 
 .titulacion .descripcion {
@@ -23,6 +26,8 @@
     margin-top: 2.5rem;
     text-align: justify;
     margin-right: 1.25rem;
-    color: rgb(12, 14, 20);
+    color: gray;
+    text-shadow: 2px 2px 2px black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
 }

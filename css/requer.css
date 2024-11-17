@@ -1,0 +1,91 @@
+.parte2 {
+    background: rgb(171, 171, 223);
+}
+
+.componente {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.integrado {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.integrado1 {
+    background: white;
+    display: block;
+    padding: 20px;
+    text-align: justify;
+    border: grey 1.5px solid;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px ;
+}
+
+.integrado2 {
+    background: white;
+    display: block; 
+    padding: 20px;
+    text-align: justify;
+    border: grey 1.5px solid;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px ;
+}
+
+.integrado3 {
+    background: white;
+    display: block;
+    padding: 20px;
+    text-align: justify;
+    border: grey 1.5px solid;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px ;
+}
+
+.integrado4 {
+    background: white;
+    display: block;
+    padding: 20px;
+    text-align: justify;
+    border: grey 1.5px solid;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px ;
+}
+
+
+.subtitulo-m2 {
+    text-align: center;
+    text-shadow: white 2px 2px 2px;
+    font-size: 20px;
+}
+
+.integrado1 p {
+    color: blue;
+}
+
+.integrado2 p {
+    color: blue;
+}
+
+.integrado3 p {
+    color: blue;
+}
+
+.integrado4 p {
+    color: blue;
+}
+
+li.present {
+    
+    color: white;
+    text-shadow: black 1px 1px 1px;
+    margin: 0 0 10px 220px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+ul.novedad {
+    background: blue;
+}
