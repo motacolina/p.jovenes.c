@@ -6,7 +6,8 @@
     margin: 0;
     padding: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
 .integrado {
@@ -52,6 +53,22 @@
     border: grey 1.5px solid;
     border-radius: 15px;
     box-shadow: 2px 2px 2px ;
+}
+
+.integrado1 img {
+    margin-left: 68px;
+}
+
+.integrado2 img {
+    margin-left: 50px;
+}
+
+.integrado3 img {
+    margin-left: 70px;
+}
+
+.integrado4 img {
+    margin-left: 50px;
 }
 
 

@@ -23,3 +23,51 @@ header {
                              'nav';
     }
 }
+
+.menus-secundarios {
+    display: grid;
+    grid-template-columns: 'metodo1'
+                           'metodo2'
+                           'metodo3'
+                           'metodo4';
+}
+
+.metodo1 {
+    grid-column: metodo1;
+}
+
+.metodo2 {
+    grid-column: metodo2;
+}
+
+.metodo3 {
+    grid-column: metodo3;
+}
+
+.metodo4 {
+    grid-column: metodo4;
+}
+
+.menus-secundarios {
+    display: grid;
+    grid-template-columns: 'opcion1'
+                           'opcion2'
+                           'opcion3'
+                           'opcion4';
+}
+
+.opcion1 {
+    grid-column: metodo1;
+}
+
+.opcion2 {
+    grid-column: metodo2;
+}
+
+.opcion3 {
+    grid-column: metodo3;
+}
+
+.opcion4 {
+    grid-column: metodo4;
+}

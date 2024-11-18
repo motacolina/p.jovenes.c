@@ -7,8 +7,8 @@ section.estado {
 .contenido1 {
     background: white;
     border-radius: 10px;
-    height: 63rem;
-    width: 62.5rem;
+    height: 77rem;
+    width: 50.5rem;
     position: relative;
     display: none;
     justify-content: center;
@@ -18,24 +18,34 @@ section.estado {
 }
 
 .pop {
-    background: lightgreen;
-    height: 58.25rem;
-    width: 62.5rem;
+    background: white;
+    height: 74rem;
+    width: 40.5rem;
     position: relative;
     display: none;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
 }
 
 .remix {
-    background: yellowgreen;
-    height: 20rem;
+    background: white;
+    height: 22rem;
     width: 35rem;
     position: relative;
     display: none;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
 }
 
 .ventana {
     position: absolute;
-    left: 60.47rem;
+    left: 48.5rem;
     top: 0.6rem;
     display: block;
 }
@@ -43,14 +53,14 @@ section.estado {
 .venta {
     position: absolute;
     display: block;
-    left: 61.15rem;
-    top: 0.175rem;
+    left: 38.5rem;
+    top: 0.975rem;
 }
 
 .ventan {
     position: absolute;
-    left: 33.313rem;
-    top: 0.175rem;
+    left: 32.98rem;
+    top: 0.775rem;
     display: block;
 }
 
@@ -74,11 +84,20 @@ p.disco {
     background: blue;
 }
 
+.pop {
+    background: blue;
+}
+
+.remix {
+    background: blue;
+}
+
 .metodo1 {
     border: 1px black solid;
     border-radius: 6px;
     background: white;
     padding: 5px;
+
 }
    
 .metodo2 {
@@ -171,4 +190,19 @@ p.disco {
 
 .espera li a {
     color: red;
+}
+
+button  {
+    background: red;
+    color: white;
+    border-radius: 9px;
+    box-shadow: 3px 3px 3px gray;
+    width: 60px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
 }

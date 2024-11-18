@@ -1,9 +1,9 @@
 @import "header.css";
 @import "gridd.css";
 @import "footer.css";
-@import "main1.css";
-@import "requer.css";
-@import "ulti.css";
+@import "body1.css";
+@import "body2.css";
+@import "body3.css";
 
 * {
     margin: 0;
@@ -11,61 +11,71 @@
     box-sizing: border-box;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-}
-
 .fotografias {
-    background: rgb(195, 212, 228);
-    width: 1250px;
-    height: auto;
-    padding: 30px 30px 0;
-    border: grey 2.5px solid;
+    display: grid;
+    grid-template-areas: 'carrusel'
+                            'acti';
 }
 
 .carrusel {
-    background: black;
-    margin-left: 50px;
-    margin-right: 50px;
-    width: 90%;
-    height: 400px;   
+    grid-area: carrusel;
+}
+
+.acti {
+    grid-area: acti;
+}
+
+
+.fotografias {
+    background: rgb(195, 212, 228);
+    width: 100%;
+    height: auto;
+    padding:0;
+    border: grey 2.5px solid;
+    justify-content: center;
+    align-items: center;
+} 
+
+ul.carrusel {
+    position: relative;
+    width: 1250px;
+    height: 600px;
     box-shadow:
     inset 0 -3em 3em rgba(0,0,0,.1),
     0 0 0 2px rgb(255,255,255),
     0.3em 0.3em 1em rgba(0, 0, 0, .3);
 }
 
-ul.carrusel {
-    position: relative;
-    width: 1100px;
-    height: 400px;
-}
 
 ul.carrusel li {
     position: absolute;
     left: 0;
     top: 0;
     opacity: 0;
-    width: 1000px;
-    height: 400px;
     transition: opacity .5s;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 ul.carrusel li img {
     width: 100%;
-    height: 380px; 
-    margin-left: 50px;
-    margin-top: 10px;
-    border: 1px black solid;
+    height: 600px; 
+    border: 3px black solid;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 10px;
 }
 
 ul.carrusel li:first-child{
     opacity: 1;
 }
 
+.acti {
+    text-align: center;
+}
+
 ul.acti {
-    margin-left: 450px;
+    margin:0;
 }
 
 .acti li {
@@ -83,10 +93,7 @@ ul.acti {
     height: 20px;
     font-size: 15px;
     border-radius: 100%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 0;
+    
 }
 
 ul.carrusel li:target {
