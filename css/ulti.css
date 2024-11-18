@@ -32,11 +32,11 @@ img.tipos {
 }
 
 .letra {
-    grid-area: .letra;
+    grid-area: letra;
 }
 
 .agrego {
-    grid-area: .agrego;
+    grid-area: agrego;
 }
 
 .reset {

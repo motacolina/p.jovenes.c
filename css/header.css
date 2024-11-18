@@ -5,7 +5,7 @@ header {
 }
 
 .logo {
-grid-area: .logo;
+grid-area: logo;
 }
 
 nav {

@@ -1,23 +1,25 @@
-*{
+main.registro {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 main {
     display: grid;
     grid-template-columns: 55% 45%;
-    background-color: lightskyblue;
 }
 
 main {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     min-height: 100vh;
+    background: rgb(35, 113, 135)
 }
 
-#apartado {
+form #apartado {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -28,18 +30,28 @@ main {
     align-items: center;
     border: .2rem solid rgba(0, 0, 0, 0.363);
     margin: .5rem;
-    border-radius: 2%;
+}
+
+form {
+    background: white;
+    width: 480px;
+    border: 2px rgb(96, 87, 87) solid;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px white;
 }
 
  h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 2rem;
     padding: .5rem 0;
-    color: rgba(4, 77, 12, 0.879);
+    text-align: center;
+    color: rgba(39, 136, 50, 0.879);
+    text-shadow: 2px 2px 2px black;
 }
 
 li {
     padding: .5rem;
+    font-size: 20px;
 }
 
 ul {
@@ -53,6 +65,9 @@ label {
 input {
     padding: .5rem;
     margin-top: .5rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px gray;
+    background: lightyellow;
 }
 
 button {
@@ -72,11 +87,23 @@ p {
     color: red;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-size: 1.2rem;
 }
 
 
 .deco img {
-    width: 35rem;
-    height: 39rem;
+    width: 90%;
+    height: 35rem;
+    border: 2px black solid;
+    border-radius: 10px;
+    box-shadow: grey 2px 2px 2px;
+}
+
+.deco {
+    background: rgba(15, 14, 14, 0.236);
+    width: 60%;
+    height: 600px;
+    padding-left: 70px;
+    margin: 0;
 }

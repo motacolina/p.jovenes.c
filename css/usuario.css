@@ -7,29 +7,45 @@ body {
 
 #inf-ppal {
     width: 30rem;
-    height: 20rem;
-    background-color: lightskyblue;
-    border-radius: .5rem;
+    height: 18rem;
+    background-color: white;
+    border-radius: .9rem;
+    border: 2px grey solid;
+    box-shadow: 2px 2px 2px black;
+    align-items: center;
+    justify-content: center;
+    margin-left: 22.9rem;
 }
 
 p {
     color: white;
-    font-size: larger;
+    font-size: 30px;
+    text-shadow: black 2px 2px 2px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .start {
-    margin: 5rem 10rem;
+    margin-top: 7rem;
+    font-size: 30px;
 }
 
 #inf-ppal input{
-    margin-top: 3.5rem;
+    margin-top: 1.5rem;
+}
+
+input {
+    background: gold;
+    width: 250px;
+    border-radius: 6px;
 }
 
 #inf-ppal button {
     background-color: rgba(24, 24, 210, 0.869);
     width: 8rem;
     color: white;
-    margin-top: 2rem;
+    margin-top: 3rem;
     margin-left: 10rem;
     border-radius: .5rem;
 }
@@ -40,13 +56,29 @@ p {
 
 #inf-ppal a {
     color: red;
-    font-size: larger;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
 }
 
 
 #inf-ppal label {
-    margin-left: 7rem;
+    margin-left: 5rem;
+    font-size: 20px;
+    color: blue;
+    padding: 0;
+    display: inline-block;
+    text-align: start;
 }
+
+.novedoso {
+    color: blue;
+    text-decoration: none;
+    padding: 0;
+    display: flex;
+    
+}
+
 
 
 

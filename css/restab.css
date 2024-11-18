@@ -1,0 +1,31 @@
+body.aire {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-image: url(/assets/img.jpg/edificio.jpg);
+    background-size: cover;
+}
+
+.recuperar {
+    width: 400px;
+    height: 200px;
+    background: blue; 
+    text-align: center; 
+    border: black 2px solid;
+    box-shadow: gray 2px 2px 2px ;
+    border-radius: 9px; 
+    margin-top: 180px;
+}
+
+input.vivo {
+    width: 20rem;
+    background: white;
+    border: black 2px solid;
+    border-radius: 9px;
+}
+    
+h1.tecni {
+    text-shadow: white 2px 2px 2px ;
+}
