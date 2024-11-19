@@ -13,5 +13,18 @@ header {
 
 main {
     display: grid;
-    grid-template-areas: ;
+    grid-template-areas: 'header'
+                        '.local .partir';
+}
+
+header {
+    grid-area: header;
+}
+
+.local {
+    grid-area: local;
+}
+
+.partir {
+    grid-area: partir;
 }

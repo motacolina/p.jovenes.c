@@ -7,7 +7,7 @@ section.estado {
 .contenido1 {
     background: white;
     border-radius: 0.625rem;
-    height: 77rem;
+    height: 53rem;
     width: 50.5rem;
     position: relative;
     display: none;
@@ -19,7 +19,7 @@ section.estado {
 
 .pop {
     background: white;
-    height: 74rem;
+    height: 53rem;
     width: 40.5rem;
     position: relative;
     display: none;
@@ -32,7 +32,7 @@ section.estado {
 
 .remix {
     background: white;
-    height: 22rem;
+    height: 16rem;
     width: 35rem;
     position: relative;
     display: none;
@@ -82,14 +82,18 @@ p.disco {
 
 .contenido1 {
     background: blue;
+    align-items: center;
+    justify-content: center;
 }
 
 .pop {
     background: blue;
+    margin-left: 17.5rem;
 }
 
 .remix {
     background: blue;
+    margin-left: 10.625rem;
 }
 
 .metodo1 {

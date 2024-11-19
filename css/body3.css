@@ -48,9 +48,14 @@ img.tipos {
 
 .reset {
     height: 3.75rem;
-    text-align: center;
+    text-align: end;
     padding: .5rem .625rem .313rem .5rem;
     background: burlywood;
+}
+
+.reset p {
+    text-align: justify
+
 }
 
 .letra h2 {
