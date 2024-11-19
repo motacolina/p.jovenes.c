@@ -15,29 +15,34 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 100vh;
+    min-height: 100%;
     background: rgb(35, 113, 135)
 }
 
+main.lejano {
+    width: 100%;
+    height: auto;
+}
+
 form #apartado {
-    position: relative;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 90%;
     height: 100%;
     padding: 1rem;
     justify-content: center;
     align-items: center;
     border: .2rem solid rgba(0, 0, 0, 0.363);
-    margin: .5rem;
+    margin: .9rem;
 }
 
 form {
     background: white;
-    width: 480px;
-    border: 2px rgb(96, 87, 87) solid;
-    border-radius: 10px;
-    box-shadow: 3px 3px 3px white;
+    width: 33rem;
+    border: .125rem rgb(96, 87, 87) solid;
+    border-radius: .625rem;
+    box-shadow: .188rem .188rem .188rem white;
+    margin-left: 2.25rem;
 }
 
  h2{
@@ -46,16 +51,21 @@ form {
     padding: .5rem 0;
     text-align: center;
     color: rgba(39, 136, 50, 0.879);
-    text-shadow: 2px 2px 2px black;
+    text-shadow: .125rem .125rem .125rem black;
 }
 
 li {
     padding: .5rem;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 ul {
     list-style: none;
+}
+
+label #sexo {
+    margin: 0;
+    padding: 0;
 }
 
 label {
@@ -65,9 +75,9 @@ label {
 input {
     padding: .5rem;
     margin-top: .5rem;
-    border-radius: 10px;
-    box-shadow: 3px 3px 3px gray;
-    background: lightyellow;
+    border-radius: .625rem;
+    box-shadow: .188rem .188rem .188rem gray;
+    background: lightgreen;
 }
 
 button {
@@ -91,19 +101,18 @@ p {
     font-size: 1.2rem;
 }
 
-
 .deco img {
-    width: 90%;
-    height: 35rem;
-    border: 2px black solid;
-    border-radius: 10px;
-    box-shadow: grey 2px 2px 2px;
+    width: 100%;
+    height: 37rem;
+    border: .125rem black solid;
+    border-radius: .625rem;
+    box-shadow: grey .125rem .125rem .125rem;
 }
 
 .deco {
     background: rgba(15, 14, 14, 0.236);
     width: 60%;
-    height: 600px;
-    padding-left: 70px;
+    height: 37.5rem;
+    padding-left: 4.375rem;
     margin: 0;
 }

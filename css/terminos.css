@@ -1,8 +1,8 @@
 main.trayecto {
     background: blue;
     color: white;
-    text-shadow: 2px 2px 2px black;
-    padding: 5px;
-    margin: 5px;
+    text-shadow: .125rem .125rem .125rem black;
+    padding: .313rem;
+    margin: .313rem;
     text-align: justify;
 }

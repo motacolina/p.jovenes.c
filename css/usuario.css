@@ -10,8 +10,8 @@ body {
     height: 18rem;
     background-color: white;
     border-radius: .9rem;
-    border: 2px grey solid;
-    box-shadow: 2px 2px 2px black;
+    border: .125rem grey solid;
+    box-shadow: .125rem .125rem .125rem black;
     align-items: center;
     justify-content: center;
     margin-left: 22.9rem;
@@ -19,8 +19,8 @@ body {
 
 p {
     color: white;
-    font-size: 30px;
-    text-shadow: black 2px 2px 2px;
+    font-size: 1.875rem;
+    text-shadow: black .125rem .125rem .125rem;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -28,7 +28,7 @@ p {
 
 .start {
     margin-top: 7rem;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 #inf-ppal input{
@@ -37,8 +37,8 @@ p {
 
 input {
     background: gold;
-    width: 250px;
-    border-radius: 6px;
+    width: 15.625rem;
+    border-radius: .375rem;
 }
 
 #inf-ppal button {
@@ -56,7 +56,7 @@ input {
 
 #inf-ppal a {
     color: red;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: center;
     margin-top: 0;
 }
@@ -64,7 +64,7 @@ input {
 
 #inf-ppal label {
     margin-left: 5rem;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: blue;
     padding: 0;
     display: inline-block;

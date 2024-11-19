@@ -9,8 +9,9 @@
     padding-top: 3.125rem;
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    text-shadow: 2px 2px 2px black;
-    font-size: 50px;
+    text-shadow: .125rem .125rem .125rem black;
+    font-size: 3.125rem;
+    display: flex;
 }
 
 .subtitulo {
@@ -18,7 +19,7 @@
     margin-top: 2.5rem;
     color: gray;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: .125rem .125rem .125rem black;
 }
 
 .titulacion .descripcion {
@@ -27,7 +28,7 @@
     text-align: justify;
     margin-right: 1.25rem;
     color: gray;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: .125rem .125rem .125rem black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
 }

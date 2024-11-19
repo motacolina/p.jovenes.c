@@ -9,23 +9,23 @@ body.aire {
 }
 
 .recuperar {
-    width: 400px;
-    height: 200px;
+    width: 25rem;
+    height: 12.5rem;
     background: blue; 
     text-align: center; 
-    border: black 2px solid;
-    box-shadow: gray 2px 2px 2px ;
-    border-radius: 9px; 
-    margin-top: 180px;
+    border: black .125rem solid;
+    box-shadow: gray .125rem .125rem .125rem ;
+    border-radius: .563rem; 
+    margin-top: 11.25rem;
 }
 
 input.vivo {
     width: 20rem;
     background: white;
-    border: black 2px solid;
-    border-radius: 9px;
+    border: black .125rem solid;
+    border-radius: .563rem;
 }
     
 h1.tecni {
-    text-shadow: white 2px 2px 2px ;
+    text-shadow: white .125rem .125rem .125rem;
 }

@@ -6,15 +6,15 @@ section.estado {
 
 .contenido1 {
     background: white;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     height: 77rem;
     width: 50.5rem;
     position: relative;
     display: none;
     justify-content: center;
     align-items: center;
-    margin: 5px;
-    padding: 10px;
+    margin: .313rem;
+    padding: .625rem;
 }
 
 .pop {
@@ -23,11 +23,11 @@ section.estado {
     width: 40.5rem;
     position: relative;
     display: none;
-    border-radius: 10px;
+    border-radius: .625rem;
     justify-content: center;
     align-items: center;
-    margin: 5px;
-    padding: 10px;
+    margin: .313rem;
+    padding: .625rem;
 }
 
 .remix {
@@ -36,11 +36,11 @@ section.estado {
     width: 35rem;
     position: relative;
     display: none;
-    border-radius: 10px;
+    border-radius: .625rem;
     justify-content: center;
     align-items: center;
-    margin: 5px;
-    padding: 10px;
+    margin: .313rem;
+    padding: .625rem;
 }
 
 .ventana {
@@ -54,7 +54,7 @@ section.estado {
     position: absolute;
     display: block;
     left: 38.5rem;
-    top: 0.975rem;
+    top: 0.8rem;
 }
 
 .ventan {
@@ -73,7 +73,7 @@ li {
 }
 
 img.first {
-    margin: 5px 0 5px 5px;
+    margin: .313rem 0 .313rem .313rem;
 }
 
 p.disco {
@@ -93,32 +93,32 @@ p.disco {
 }
 
 .metodo1 {
-    border: 1px black solid;
-    border-radius: 6px;
+    border: .063rem black solid;
+    border-radius: .375rem;
     background: white;
-    padding: 5px;
+    padding: .313rem;
 
 }
    
 .metodo2 {
-    border: 1px black solid;
-    border-radius: 6px;
+    border: .063rem black solid;
+    border-radius: .375rem;
     background: white;
-    padding: 5px;
+    padding: .313rem;
 }
 
 .metodo3 {
-    border: 1px black solid;
-    border-radius: 6px;
+    border: .063rem black solid;
+    border-radius: .375rem;
     background: white;
-    padding: 5px;
+    padding: .313rem;
 }
 
 .metodo4 {
-    border: 1px black solid; 
-    border-radius: 6px;
+    border: .063rem black solid; 
+    border-radius: .375rem;
     background: white;
-    padding: 5px;
+    padding: .313rem;
 }
 
 .metodo1 li a {
@@ -138,31 +138,31 @@ p.disco {
 }
 
 .opcion1 {
-    border: 1px black solid;
-    border-radius: 6px;
+    border: .063rem black solid;
+    border-radius: .375rem;
     background: white;
-    padding: 5px;
+    padding: .313rem;
 }
 
 .opcion2 {
-    border: 1px black solid;
-    border-radius: 6px;
+    border: .063rem black solid;
+    border-radius: .375rem;
     background: white;
-    padding: 5px;
+    padding: .313rem;
 }
 
 .opcion3 {
-    border: 1px black solid;
-    border-radius: 6px;
+    border: .063rem black solid;
+    border-radius: .375rem;
     background: white;
-    padding: 5px;
+    padding: .313rem;
 }
 
 .opcion4 {
-    border: 1px black solid;
-    border-radius: 6px;
+    border: .063rem black solid;
+    border-radius: .375rem;
     background: white;
-    padding: 5px;
+    padding: .313rem;
 }
 
 .opcion1 li a {
@@ -182,10 +182,10 @@ p.disco {
 }
 
 .espera {
-    border: 1px black solid;
-    border-radius: 6px;
+    border: .063rem black solid;
+    border-radius: .375rem;
     background: white;
-    padding: 5px;  
+    padding: .313rem;  
 }
 
 .espera li a {
@@ -195,11 +195,11 @@ p.disco {
 button  {
     background: red;
     color: white;
-    border-radius: 9px;
-    box-shadow: 3px 3px 3px gray;
-    width: 60px;
-    height: 40px;
-    margin-top: 20px;
+    border-radius: .563rem;
+    box-shadow: .188rem .188rem .188rem gray;
+    width: 3.75rem;
+    height: 2.5rem;
+    margin-top: 1.25rem;
 }
 
 button a {

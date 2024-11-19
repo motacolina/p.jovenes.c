@@ -1,0 +1,17 @@
+header {
+    margin: 0;
+    padding: 0;
+    background: goldenrod;
+    width: 100%;
+    height: 6rem;
+}
+
+.local {
+    width: 100%;
+    height: 62.5rem;
+}
+
+main {
+    display: grid;
+    grid-template-areas: ;
+}
