@@ -13,10 +13,11 @@ main {
 
 main {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     min-height: 100%;
-    background: rgb(35, 113, 135)
+    background: rgb(246, 32, 12);
+    width: 100vh;
 }
 
 main.lejano {
@@ -27,8 +28,6 @@ main.lejano {
 form #apartado {
     display: flex;
     flex-direction: column;
-    width: 90%;
-    height: 100%;
     padding: 1rem;
     justify-content: center;
     align-items: center;
@@ -36,22 +35,26 @@ form #apartado {
     margin: .9rem;
 }
 
+#apartado ul li {
+    margin-left: 4rem;
+}
+
 form {
     background: white;
-    width: 33rem;
+    width: 30rem;
     border: .125rem rgb(96, 87, 87) solid;
-    border-radius: .625rem;
+    border-radius: 1.25rem;
     box-shadow: .188rem .188rem .188rem white;
     margin-left: 2.25rem;
 }
 
  h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 2rem;
-    padding: .5rem 0;
+    font-size: 2.5rem;
+    padding: .2rem 0;
     text-align: center;
-    color: rgba(39, 136, 50, 0.879);
-    text-shadow: .125rem .125rem .125rem black;
+    color: black;
+    text-shadow: .125rem .125rem .125rem gray;
 }
 
 li {
@@ -63,13 +66,9 @@ ul {
     list-style: none;
 }
 
-label #sexo {
-    margin: 0;
-    padding: 0;
-}
-
 label {
-    padding: .5rem;
+    padding: 0;
+    color: gray;
 }
 
 input {
@@ -77,15 +76,16 @@ input {
     margin-top: .5rem;
     border-radius: .625rem;
     box-shadow: .188rem .188rem .188rem gray;
-    background: lightgreen;
+    border: 1.8rem black;
+    background: rgb(221, 230, 233);
 }
 
 button {
     background: rgba(24, 24, 210, 0.869);
     padding: .3rem;
     border-radius: .5rem;
-    margin-bottom: .5rem;
-    margin-top: .5rem;
+    margin-top: 1.9rem;
+    margin-left: 5.375rem;
     color: white;
 }
 
@@ -94,11 +94,11 @@ button:hover {
 }
 
 p {
-    color: red;
+    color: black;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .deco img {

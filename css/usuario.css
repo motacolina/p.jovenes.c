@@ -8,7 +8,7 @@ body {
 #inf-ppal {
     width: 30rem;
     height: 18rem;
-    background-color: white;
+    background: rgba(255, 255, 255, 0.302);
     border-radius: .9rem;
     border: .125rem grey solid;
     box-shadow: .125rem .125rem .125rem black;
@@ -17,26 +17,22 @@ body {
     margin-left: 22.9rem;
 }
 
-p {
-    color: white;
+.start {
+    margin-top: 7rem;
     font-size: 1.875rem;
+    color: white;
+    font-size: 1.975rem;
     text-shadow: black .125rem .125rem .125rem;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
 
-.start {
-    margin-top: 7rem;
-    font-size: 1.875rem;
-}
-
-#inf-ppal input{
+ input{
     margin-top: 1.5rem;
-}
-
-input {
-    background: gold;
+    height: fit-content;
+    color: gray;
+    background: rgb(233, 233, 237);
     width: 15.625rem;
     border-radius: .375rem;
 }
@@ -55,27 +51,19 @@ input {
 }
 
 #inf-ppal a {
-    color: red;
-    font-size: 1.25rem;
+    color: blue;
+    font-size: 1.45rem;
     text-align: center;
     margin-top: 0;
+    text-align: end;
 }
 
 
 #inf-ppal label {
     margin-left: 5rem;
-    font-size: 1.25rem;
-    color: blue;
+    font-size: 1.4rem;
+    color: black;
     padding: 0;
-    display: inline-block;
-    text-align: start;
-}
-
-.novedoso {
-    color: blue;
-    text-decoration: none;
-    padding: 0;
-    display: flex;
 }
 
 
