@@ -116,3 +116,94 @@ p {
     padding-left: 4.375rem;
     margin: 0;
 }
+
+/* Media Queries para diseño responsive */
+
+/* Pantallas medianas - Tablets (768px) */
+@media only screen and (max-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column; /* Cambia a disposición vertical */
+        align-items: center;
+        width: 100%; /* Ajusta el ancho al 100% */
+    }
+
+    form {
+        width: 25rem; /* Reduce el ancho del formulario */
+        margin-left: 0; /* Centra el formulario */
+    }
+
+    .deco {
+        width: 90%; /* Ajusta la imagen decorativa */
+        height: auto; /* Permite que la altura sea proporcional */
+        padding-left: 0;
+    }
+
+    .deco img {
+        height: auto; /* Ajusta la altura proporcionalmente */
+    }
+
+    h2 {
+        font-size: 2rem; /* Reduce el tamaño del encabezado */
+    }
+
+    input, button {
+        width: 90%; /* Ajusta el ancho de inputs y botones */
+        margin-left: 0; /* Centra los elementos */
+    }
+
+    button {
+        margin-top: 1rem;
+    }
+}
+
+/* Pantallas pequeñas - Teléfonos (480px) */
+@media only screen and (max-width: 480px) {
+    main {
+        display: flex;
+        flex-direction: column; /* Coloca todo en una columna */
+        align-items: center;
+        padding: 1rem;
+    }
+
+    form {
+        width: 90%; /* Ocupa casi todo el ancho */
+        box-shadow: none; /* Simplifica el diseño para pantallas pequeñas */
+    }
+
+    .deco {
+        display: none; /* Oculta la decoración para maximizar el espacio */
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Reduce aún más el encabezado */
+    }
+
+    input, button {
+        width: 100%; /* Ocupa todo el ancho disponible */
+        margin: 0.5rem 0; /* Agrega espacio vertical */
+    }
+
+    li {
+        font-size: 1rem; /* Ajusta el tamaño del texto en listas */
+    }
+
+    p {
+        font-size: 1rem; /* Reduce el tamaño del texto del párrafo */
+    }
+}
+
+/* Pantallas extra pequeñas (320px) */
+@media only screen and (max-width: 320px) {
+    form {
+        padding: 0.5rem; /* Reduce el padding del formulario */
+    }
+
+    h2 {
+        font-size: 1.2rem; /* Encabezado aún más compacto */
+    }
+
+    button {
+        font-size: 0.9rem; /* Botón más pequeño */
+    }
+}

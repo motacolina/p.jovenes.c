@@ -71,3 +71,66 @@ header {
 .opcion4 {
     grid-column: metodo4;
 }
+
+/* Media Queries para diseño responsive */
+@media only screen and (max-width: 1024px) {
+    header {
+        grid-template-areas: 
+            'logo titulo'
+            'nav nav'; /* Ajusta la navegación en una fila separada */
+    }
+
+    .menus-secundarios {
+        grid-template-columns: repeat(2, 1fr); /* Divide en dos columnas */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        grid-template-areas: 
+            'logo'
+            'titulo'
+            'nav'; /* Coloca todos los elementos en columnas */
+    }
+
+    .menus-secundarios {
+        grid-template-columns: repeat(1, 1fr); /* Una columna para cada elemento */
+    }
+
+    .metodo1,
+    .metodo2,
+    .metodo3,
+    .metodo4,
+    .opcion1,
+    .opcion2,
+    .opcion3,
+    .opcion4 {
+        text-align: center; /* Centra el contenido */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header {
+        grid-template-areas: 
+            'logo'
+            'titulo'
+            'nav'; /* Mantiene la disposición en columnas */
+    }
+
+    .menus-secundarios {
+        grid-template-columns: 1fr; /* Una columna para cada menú secundario */
+        gap: 0.5rem; /* Añade espacio entre los elementos */
+    }
+
+    .metodo1,
+    .metodo2,
+    .metodo3,
+    .metodo4,
+    .opcion1,
+    .opcion2,
+    .opcion3,
+    .opcion4 {
+        font-size: 0.875rem; /* Reduce el tamaño del texto para pantallas pequeñas */
+        padding: 0.5rem; /* Ajusta el padding */
+    }
+}

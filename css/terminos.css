@@ -6,3 +6,20 @@ main.trayecto {
     margin: .313rem;
     text-align: justify;
 }
+
+@media only screen and (max-width: 768px) {
+    main.trayecto {
+        padding: .625rem; /* Aumenta el padding para mayor espacio */
+        margin: .5rem; /* Ajusta el margen para pantallas medianas */
+        text-align: left; /* Ajusta el texto a la izquierda */
+    }
+}
+
+/* Diseño para pantallas pequeñas - Teléfonos (480px) */
+@media only screen and (max-width: 480px) {
+    main.trayecto {
+        padding: .75rem; /* Aumenta el padding para pantallas más pequeñas */
+        margin: .5rem; /* Ajusta el margen */
+        text-align: center; /* Centra el texto en pantallas pequeñas */
+    }
+}

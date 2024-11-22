@@ -105,3 +105,68 @@ li.present {
 ul.novedad {
     background: blue;
 }
+
+/* Media Queries para hacer el diseño responsive */
+@media (max-width: 1024px) {
+    .integrado1 img, .integrado2 img, .integrado3 img, .integrado4 img {
+        margin-left: 2rem; /* Ajusta el margen de las imágenes */
+    }
+
+    li.present {
+        margin: 0 0 .625rem 10rem; /* Reduce el margen para pantallas medianas */
+        font-size: 1rem; /* Ajusta el tamaño del texto */
+    }
+
+    .subtitulo-m2 {
+        font-size: 1.125rem; /* Reduce ligeramente el tamaño del subtítulo */
+    }
+}
+
+@media (max-width: 768px) {
+    .componente {
+        flex-direction: column; /* Cambia los componentes a una disposición en columna */
+    }
+
+    .integrado {
+        flex-direction: column; /* Ajusta la dirección del contenedor integrado */
+    }
+
+    .integrado1 img, .integrado2 img, .integrado3 img, .integrado4 img {
+        margin-left: 1.25rem; /* Reduce aún más el margen de las imágenes */
+    }
+
+    li.present {
+        margin: 0 0 .625rem 5rem; /* Ajusta el margen para pantallas más pequeñas */
+        font-size: 0.938rem; /* Reduce el tamaño del texto */
+    }
+
+    .subtitulo-m2 {
+        font-size: 1rem; /* Ajusta el tamaño del subtítulo */
+    }
+}
+
+@media (max-width: 480px) {
+    .integrado1, .integrado2, .integrado3, .integrado4 {
+        padding: 0.625rem; /* Reduce el relleno de las cajas */
+        text-align: center; /* Cambia el texto a centrado */
+    }
+
+    .integrado1 img, .integrado2 img, .integrado3 img, .integrado4 img {
+        margin-left: 0; /* Elimina el margen izquierdo de las imágenes */
+        display: block; /* Asegura que las imágenes se centren */
+        margin: 0 auto;
+    }
+
+    li.present {
+        margin: 0 0 .625rem 2rem; /* Reduce significativamente el margen */
+        font-size: 0.875rem; /* Ajusta el tamaño del texto para pantallas pequeñas */
+    }
+
+    ul.novedad {
+        padding: 0.625rem; /* Agrega espacio interno a la lista */
+    }
+
+    .subtitulo-m2 {
+        font-size: 0.875rem; /* Reduce el tamaño del subtítulo para móviles */
+    }
+}

@@ -40,3 +40,64 @@ header {
     display: flex;
     flex-flow: wrap;
 }
+
+/* Diseño responsive con Media Queries */
+
+/* Pantallas medianas - Tablets (768px) */
+@media only screen and (max-width: 768px) {
+    .modus {
+        grid-template-areas: 
+            'header'
+            'adicion'
+            'partir'; /* Cambia a disposición vertical */
+        grid-template-columns: 1fr; /* Una sola columna */
+        grid-template-rows: auto; /* Filas automáticas */
+    }
+
+    header {
+        height: 4rem; /* Reduce la altura del encabezado */
+    }
+
+    .adicion, .partir {
+        height: auto; /* Ajusta la altura automáticamente */
+        padding: 1rem; /* Agrega espacio interno */
+    }
+}
+
+/* Pantallas pequeñas - Teléfonos (480px) */
+@media only screen and (max-width: 480px) {
+    .modus {
+        grid-template-areas: 
+            'header'
+            'adicion'
+            'partir'; /* Disposición vertical */
+        gap: 0.5rem; /* Espaciado entre los elementos */
+    }
+
+    header {
+        height: 3rem; /* Encabezado más compacto */
+        font-size: 1rem; /* Reduce el tamaño del texto */
+        text-align: center; /* Centra el texto */
+    }
+
+    .adicion, .partir {
+        height: auto;
+        padding: 0.5rem; /* Reduce el espacio interno */
+    }
+}
+
+/* Pantallas extra pequeñas (320px) */
+@media only screen and (max-width: 320px) {
+    .modus {
+        gap: 0.25rem; /* Reduce el espaciado */
+    }
+
+    header {
+        font-size: 0.9rem; /* Fuente más pequeña */
+    }
+
+    .adicion, .partir {
+        font-size: 0.8rem; /* Ajusta el tamaño del texto */
+        padding: 0.25rem; /* Espacio interno mínimo */
+    }
+}

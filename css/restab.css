@@ -29,3 +29,70 @@ input.vivo {
 h1.tecni {
     text-shadow: white .125rem .125rem .125rem;
 }
+
+/* Media Queries para diseño responsive */
+
+/* Pantallas medianas - Tablets (768px) */
+@media only screen and (max-width: 768px) {
+    body.aire {
+        background-size: contain; /* Ajusta la imagen de fondo */
+        background-position: center;
+    }
+
+    .recuperar {
+        width: 20rem; /* Reduce el ancho del contenedor */
+        height: auto; /* Ajusta la altura automáticamente */
+        margin-top: 8rem; /* Reduce el margen superior */
+        padding: 1rem; /* Agrega espacio interno */
+    }
+
+    input.vivo {
+        width: 18rem; /* Reduce el ancho del campo de entrada */
+    }
+
+    h1.tecni {
+        font-size: 1.5rem; /* Reduce el tamaño del texto */
+    }
+}
+
+/* Pantallas pequeñas - Teléfonos (480px) */
+@media only screen and (max-width: 480px) {
+    body.aire {
+        display: flex;
+        flex-direction: column; /* Cambia a disposición vertical */
+        background-size: cover; /* Mantén la cobertura completa */
+    }
+
+    .recuperar {
+        width: 90%; /* Ocupa casi todo el ancho de la pantalla */
+        margin-top: 5rem; /* Reduce el margen superior */
+        padding: 1rem; /* Aumenta el padding interno */
+    }
+
+    input.vivo {
+        width: 90%; /* Campo de entrada ocupa casi todo el ancho */
+        font-size: 1rem; /* Reduce el tamaño del texto */
+    }
+
+    h1.tecni {
+        font-size: 1.2rem; /* Tamaño más pequeño del encabezado */
+        text-shadow: none; /* Simplifica el estilo */
+    }
+}
+
+/* Pantallas extra pequeñas (320px) */
+@media only screen and (max-width: 320px) {
+    .recuperar {
+        width: 100%; /* Contenedor ocupa todo el ancho */
+        padding: 0.5rem; /* Ajusta el padding para más espacio */
+    }
+
+    input.vivo {
+        width: 100%; /* Entrada ocupa todo el ancho disponible */
+        font-size: 0.9rem; /* Fuente más pequeña */
+    }
+
+    h1.tecni {
+        font-size: 1rem; /* Encabezado aún más compacto */
+    }
+}

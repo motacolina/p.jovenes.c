@@ -64,5 +64,93 @@ nav {
     display: block;
 }
 
+/* Media Queries para diseño responsive */
+@media only screen and (max-width: 1024px) {
+    header {
+        grid-template-areas: 
+            'logo'
+            'nav'; /* Coloca el logo y la navegación en columnas */
+    }
+
+    .logo {
+        width: 10rem; /* Reduce el tamaño del logo */
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav {
+        width: 100%; /* Ajusta el ancho de la barra de navegación */
+        height: auto;
+    }
+
+    .menu {
+        flex-direction: column; /* Cambia a disposición vertical */
+        margin: 2rem auto;
+        font-size: 1rem;
+        width: auto; /* Ajusta el ancho al contenido */
+        height: auto;
+    }
+
+    .menu li a {
+        padding: 0.5rem 1rem; /* Reduce el padding */
+        text-align: center;
+    }
+
+    .submenu li a {
+        padding: 0.5rem 1rem; /* Ajusta el padding para el submenú */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .menu {
+        font-size: 0.875rem; /* Reduce el tamaño del texto */
+        margin: 1rem auto;
+    }
+
+    .menu li a {
+        padding: 0.5rem; /* Ajusta el espacio para pantallas pequeñas */
+    }
+
+    .submenu {
+        position: relative; /* Asegura que el submenú esté correctamente alineado */
+        width: 100%;
+    }
+
+    .submenu li a {
+        padding: 0.3rem 0.8rem; /* Reduce más el padding del submenú */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header {
+        grid-template-areas: 
+            'logo'
+            'nav'; /* Mantiene la disposición vertical */
+        padding: 0.5rem;
+    }
+
+    .logo {
+        width: 8rem; /* Reduce aún más el tamaño del logo */
+    }
+
+    .menu {
+        font-size: 0.75rem; /* Reduce el tamaño del texto */
+        margin: 1rem auto;
+    }
+
+    .menu li a {
+        padding: 0.3rem; /* Espaciado compacto para dispositivos pequeños */
+    }
+
+    .submenu {
+        position: relative;
+        width: 100%; /* Asegura que el submenú ocupe toda la fila */
+    }
+
+    .submenu li a {
+        padding: 0.2rem 0.5rem; /* Ajusta el padding para submenús en pantallas pequeñas */
+        margin-left: 0; /* Elimina el margen izquierdo */
+    }
+}
 
 

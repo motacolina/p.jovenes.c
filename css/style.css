@@ -123,4 +123,136 @@ ul.carrusel li:target {
     box-shadow: .188rem .188rem .188rem;
 }
 
+/* Diseño responsive con Media Queries */
 
+/* Pantallas medianas - Tablets (768px) */
+@media only screen and (max-width: 768px) {
+    .fotografias {
+        grid-template-areas:
+            'carrusel'
+            'acti';
+        /* Disposición vertical */
+    }
+
+    ul.carrusel {
+        width: 100%;
+        height: auto;
+        /* Ajusta la altura del carrusel */
+    }
+
+    ul.carrusel li img {
+        height: auto;
+        /* Ajusta la altura de las imágenes */
+    }
+
+    .acti {
+        padding: 1rem;
+        /* Agrega espacio interno */
+    }
+
+    .acti li {
+        margin: 0.5rem;
+    }
+
+    .titulo-m1 {
+        font-size: 1rem;
+        /* Ajusta el tamaño del título */
+    }
+
+    .texto {
+        font-size: 1rem;
+        /* Reduce el tamaño del texto */
+        padding: 0.5rem 1rem;
+        /* Ajusta el padding */
+    }
+}
+
+/* Pantallas pequeñas - Teléfonos (480px) */
+@media only screen and (max-width: 480px) {
+    .fotografias {
+        grid-template-areas:
+            'carrusel'
+            'acti';
+        /* Disposición vertical */
+        padding: 0.5rem;
+        /* Ajusta el padding */
+    }
+
+    ul.carrusel {
+        width: 100%;
+        height: auto;
+        /* Ajusta el carrusel */
+    }
+
+    ul.carrusel li img {
+        height: 20rem;
+        /* Limita la altura de las imágenes */
+    }
+
+    .acti {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .acti li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    .acti li a {
+        font-size: 0.875rem;
+        /* Ajusta el tamaño de los enlaces */
+        width: 2rem;
+        height: 1.5rem;
+    }
+
+    .titulo-m1 {
+        font-size: 1rem;
+        /* Ajusta el tamaño del título */
+    }
+
+    .texto {
+        font-size: 0.9rem;
+        /* Reduce el tamaño del texto */
+        padding: 0.5rem;
+        /* Ajusta el padding */
+    }
+}
+
+/* Pantallas extra pequeñas (320px) */
+@media only screen and (max-width: 320px) {
+    .fotografias {
+        grid-template-areas:
+            'carrusel'
+            'acti';
+        /* Mantiene disposición vertical */
+    }
+
+    ul.carrusel {
+        width: 100%;
+        height: 18rem;
+        /* Ajusta la altura del carrusel */
+    }
+
+    ul.carrusel li img {
+        height: 16rem;
+        /* Ajusta aún más la altura de las imágenes */
+    }
+
+    .acti li a {
+        width: 1.5rem;
+        height: 1rem;
+    }
+
+    .titulo-m1 {
+        font-size: 0.875rem;
+        /* Reduce el tamaño del título */
+    }
+
+    .texto {
+        font-size: 0.875rem;
+        /* Reduce aún más el tamaño del texto */
+        padding: 0.5rem;
+        /* Reduce el padding */
+    }
+}

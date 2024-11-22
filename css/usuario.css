@@ -66,6 +66,62 @@ body {
     padding: 0;
 }
 
+@media only screen and (max-width: 768px) {
+    #inf-ppal {
+        width: 22rem; /* Reducir el tamaño del contenedor */
+        margin-left: auto;
+        margin-right: auto; /* Centrar el contenedor */
+    }
+
+    .start {
+        font-size: 1.5rem; /* Reducir el tamaño del texto */
+        margin-top: 5rem; /* Ajustar el margen superior */
+    }
+
+    input {
+        width: 12rem; /* Reducir el tamaño de los inputs */
+    }
+
+    #inf-ppal button {
+        width: 7rem; /* Reducir el tamaño del botón */
+        margin-left: auto;
+        margin-right: auto; /* Centrar el botón */
+    }
+
+    #inf-ppal a {
+        font-size: 1.2rem; /* Reducir el tamaño del enlace */
+    }
+
+    #inf-ppal label {
+        margin-left: 2rem; /* Ajustar el margen de la etiqueta */
+    }
+}
+
+/* Para pantallas pequeñas (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+    #inf-ppal {
+        width: 18rem; /* Reducir aún más el tamaño del contenedor */
+    }
+
+    .start {
+        font-size: 1.25rem; /* Reducir el tamaño del texto */
+        margin-top: 3rem; /* Ajustar el margen superior */
+    }
+
+    input {
+        width: 10rem; /* Reducir aún más el tamaño de los inputs */
+    }
+
+    #inf-ppal button {
+        width: 6rem; /* Reducir aún más el tamaño del botón */
+        margin-top: 2rem; /* Ajustar el margen superior */
+    }
+
+    #inf-ppal a {
+        font-size: 1rem; /* Reducir el tamaño del enlace */
+    }
+
+
 
 
 

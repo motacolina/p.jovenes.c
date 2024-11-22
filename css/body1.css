@@ -35,3 +35,47 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.25rem;
 }
+
+@media (max-width: 768px) {
+    .titulacion {
+        height: 18rem;
+    }
+
+    .titulacion h1 {
+        font-size: 2rem;
+        padding-top: 1.5rem;
+    }
+
+    .subtitulo {
+        margin-left: 0.75rem;
+        margin-top: 1rem;
+    }
+
+    .titulacion .descripcion {
+        font-size: 1rem;
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .titulacion {
+        height: 15rem;
+    }
+
+    .titulacion h1 {
+        font-size: 1.75rem;
+        padding-top: 1rem;
+    }
+
+    .subtitulo {
+        margin-left: 0.5rem;
+        margin-top: 0.75rem;
+    }
+
+    .titulacion .descripcion {
+        font-size: 0.875rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+}

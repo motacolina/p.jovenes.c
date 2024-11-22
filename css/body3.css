@@ -67,3 +67,87 @@ img.tipos {
 .letra img {
     margin-left: .625rem;
 }
+
+/* Media Queries para hacer el diseño responsive */
+@media (max-width: 1024px) {
+    .patrocinadores img {
+        width: 12rem; /* Reduce el ancho de las imágenes */
+        height: 10.5rem; /* Reduce el alto de las imágenes */
+    }
+
+    .comentarios {
+        display: flex; /* Cambia la disposición a flexbox para mayor flexibilidad */
+        flex-direction: column; /* Coloca los elementos en columna */
+        align-items: center; /* Centra los elementos */
+    }
+
+    .reset {
+        height: 3.5rem; /* Reduce ligeramente la altura del contenedor */
+        padding: 0.5rem; /* Ajusta el relleno interno */
+    }
+
+    .letra h2 {
+        font-size: 1.25rem; /* Reduce el tamaño del encabezado */
+    }
+
+    .letra img {
+        margin-left: 0.5rem; /* Ajusta el margen para pantallas medianas */
+    }
+}
+
+@media (max-width: 768px) {
+    .patrocinadores img {
+        width: 10rem; /* Ajusta aún más el tamaño de las imágenes */
+        height: 8.5rem; /* Ajusta el alto proporcionalmente */
+        margin-top: 0.75rem; /* Reduce el margen superior */
+    }
+
+    .comentarios {
+        justify-content: center; /* Alinea los elementos al centro */
+        gap: 1rem; /* Agrega espacio entre los elementos */
+    }
+
+    .reset {
+        font-size: 0.875rem; /* Reduce el tamaño del texto */
+        height: 3.25rem; /* Ajusta la altura */
+    }
+
+    .letra h2 {
+        font-size: 1rem; /* Ajusta el tamaño del encabezado para pantallas pequeñas */
+        padding-bottom: 0.5rem; /* Reduce el espacio inferior */
+    }
+
+    .letra img {
+        margin-left: 0.25rem; /* Ajusta el margen lateral */
+    }
+}
+
+@media (max-width: 480px) {
+    .patrocinadores img {
+        width: 8rem; /* Reduce significativamente el tamaño de las imágenes */
+        height: 6.5rem; /* Ajusta el alto proporcionalmente */
+        margin-top: 0.5rem; /* Reduce el margen superior */
+    }
+
+    .comentarios {
+        gap: 0.5rem; /* Reduce el espacio entre los elementos */
+        margin-top: 1rem; /* Reduce el margen superior del contenedor */
+    }
+
+    .reset {
+        font-size: 0.75rem; /* Ajusta el tamaño del texto */
+        height: 3rem; /* Reduce la altura del contenedor */
+        padding: 0.3rem; /* Ajusta el relleno interno */
+    }
+
+    .letra h2 {
+        font-size: 0.875rem; /* Reduce el tamaño del encabezado */
+        padding-bottom: 0.3rem; /* Ajusta el espacio inferior */
+    }
+
+    .letra img {
+        margin-left: 0; /* Elimina el margen lateral para pantallas muy pequeñas */
+        display: block; /* Asegura que la imagen se centre */
+        margin: 0 auto;
+    }
+}
