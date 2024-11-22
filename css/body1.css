@@ -1,6 +1,6 @@
 .titulacion {
     height: 26.25rem;
-    background-image: url(/assets/img.jpg/fondo\ ppal.jpg);
+    background-image: url(../assets/img.jpg/fondo\ ppal.jpg);
     background-size: cover;
     justify-content: center;
     align-items: center;
