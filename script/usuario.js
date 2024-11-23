@@ -9,9 +9,8 @@ document.getElementById("inf-ppal").addEventListener("submit", function (event) 
         
         localStorage.setItem("nombreUsuario", usuarioRegistrado.nombre);
 
-        window.location.href="/html/saludo.html";
+        window.location.href="../index.html";
     } else{
         alert("Correo o contraseña incorrectos");
     }
 });
-    
