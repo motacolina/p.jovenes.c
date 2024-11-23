@@ -69,85 +69,86 @@ img.tipos {
 }
 
 /* Media Queries para hacer el diseño responsive */
+
 @media (max-width: 1024px) {
     .patrocinadores img {
-        width: 12rem; /* Reduce el ancho de las imágenes */
-        height: 10.5rem; /* Reduce el alto de las imágenes */
+        width: 12rem; 
+        height: 10.5rem; 
     }
 
     .comentarios {
-        display: flex; /* Cambia la disposición a flexbox para mayor flexibilidad */
-        flex-direction: column; /* Coloca los elementos en columna */
-        align-items: center; /* Centra los elementos */
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
     }
 
     .reset {
-        height: 3.5rem; /* Reduce ligeramente la altura del contenedor */
-        padding: 0.5rem; /* Ajusta el relleno interno */
+        height: 3.5rem;
+        padding: 0.5rem; 
     }
 
     .letra h2 {
-        font-size: 1.25rem; /* Reduce el tamaño del encabezado */
+        font-size: 1.25rem; 
     }
 
     .letra img {
-        margin-left: 0.5rem; /* Ajusta el margen para pantallas medianas */
+        margin-left: 0.5rem; 
     }
 }
 
 @media (max-width: 768px) {
     .patrocinadores img {
-        width: 10rem; /* Ajusta aún más el tamaño de las imágenes */
-        height: 8.5rem; /* Ajusta el alto proporcionalmente */
-        margin-top: 0.75rem; /* Reduce el margen superior */
+        width: 10rem; 
+        height: 8.5rem; 
+        margin-top: 0.75rem;
     }
 
     .comentarios {
-        justify-content: center; /* Alinea los elementos al centro */
-        gap: 1rem; /* Agrega espacio entre los elementos */
+        justify-content: center; 
+        gap: 1rem; 
     }
 
     .reset {
-        font-size: 0.875rem; /* Reduce el tamaño del texto */
-        height: 3.25rem; /* Ajusta la altura */
+        font-size: 0.875rem; 
+        height: 3.25rem; 
     }
 
     .letra h2 {
-        font-size: 1rem; /* Ajusta el tamaño del encabezado para pantallas pequeñas */
-        padding-bottom: 0.5rem; /* Reduce el espacio inferior */
+        font-size: 1rem;
+        padding-bottom: 0.5rem; 
     }
 
     .letra img {
-        margin-left: 0.25rem; /* Ajusta el margen lateral */
+        margin-left: 0.25rem; 
     }
 }
 
 @media (max-width: 480px) {
     .patrocinadores img {
-        width: 8rem; /* Reduce significativamente el tamaño de las imágenes */
-        height: 6.5rem; /* Ajusta el alto proporcionalmente */
-        margin-top: 0.5rem; /* Reduce el margen superior */
+        width: 8rem; 
+        height: 6.5rem; 
+        margin-top: 0.5rem; 
     }
 
     .comentarios {
-        gap: 0.5rem; /* Reduce el espacio entre los elementos */
-        margin-top: 1rem; /* Reduce el margen superior del contenedor */
+        gap: 0.5rem; 
+        margin-top: 1rem; 
     }
 
     .reset {
-        font-size: 0.75rem; /* Ajusta el tamaño del texto */
-        height: 3rem; /* Reduce la altura del contenedor */
-        padding: 0.3rem; /* Ajusta el relleno interno */
+        font-size: 0.75rem; 
+        height: 3rem; 
+        padding: 0.3rem;
     }
 
     .letra h2 {
-        font-size: 0.875rem; /* Reduce el tamaño del encabezado */
-        padding-bottom: 0.3rem; /* Ajusta el espacio inferior */
+        font-size: 0.875rem;
+        padding-bottom: 0.3rem;
     }
 
     .letra img {
-        margin-left: 0; /* Elimina el margen lateral para pantallas muy pequeñas */
-        display: block; /* Asegura que la imagen se centre */
+        margin-left: 0; 
+        display: block; 
         margin: 0 auto;
     }
 }

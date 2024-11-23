@@ -119,37 +119,36 @@ p {
 
 /* Media Queries para diseño responsive */
 
-/* Pantallas medianas - Tablets (768px) */
 @media only screen and (max-width: 768px) {
     main {
         display: flex;
-        flex-direction: column; /* Cambia a disposición vertical */
+        flex-direction: column; 
         align-items: center;
-        width: 100%; /* Ajusta el ancho al 100% */
+        width: 100%; 
     }
 
     form {
-        width: 25rem; /* Reduce el ancho del formulario */
-        margin-left: 0; /* Centra el formulario */
+        width: 25rem; 
+        margin-left: 0;
     }
 
     .deco {
-        width: 90%; /* Ajusta la imagen decorativa */
-        height: auto; /* Permite que la altura sea proporcional */
+        width: 90%;
+        height: auto; 
         padding-left: 0;
     }
 
     .deco img {
-        height: auto; /* Ajusta la altura proporcionalmente */
+        height: auto; 
     }
 
     h2 {
-        font-size: 2rem; /* Reduce el tamaño del encabezado */
+        font-size: 2rem;
     }
 
     input, button {
-        width: 90%; /* Ajusta el ancho de inputs y botones */
-        margin-left: 0; /* Centra los elementos */
+        width: 90%; 
+        margin-left: 0; 
     }
 
     button {
@@ -157,53 +156,52 @@ p {
     }
 }
 
-/* Pantallas pequeñas - Teléfonos (480px) */
+
 @media only screen and (max-width: 480px) {
     main {
         display: flex;
-        flex-direction: column; /* Coloca todo en una columna */
+        flex-direction: column; 
         align-items: center;
         padding: 1rem;
     }
 
     form {
-        width: 90%; /* Ocupa casi todo el ancho */
-        box-shadow: none; /* Simplifica el diseño para pantallas pequeñas */
+        width: 90%; 
+        box-shadow: none; 
     }
 
     .deco {
-        display: none; /* Oculta la decoración para maximizar el espacio */
+        display: none;
     }
 
     h2 {
-        font-size: 1.5rem; /* Reduce aún más el encabezado */
+        font-size: 1.5rem; 
     }
 
     input, button {
-        width: 100%; /* Ocupa todo el ancho disponible */
-        margin: 0.5rem 0; /* Agrega espacio vertical */
+        width: 100%; 
+        margin: 0.5rem 0; 
     }
 
     li {
-        font-size: 1rem; /* Ajusta el tamaño del texto en listas */
+        font-size: 1rem;
     }
 
     p {
-        font-size: 1rem; /* Reduce el tamaño del texto del párrafo */
+        font-size: 1rem;
     }
 }
 
-/* Pantallas extra pequeñas (320px) */
 @media only screen and (max-width: 320px) {
     form {
-        padding: 0.5rem; /* Reduce el padding del formulario */
+        padding: 0.5rem; 
     }
 
     h2 {
-        font-size: 1.2rem; /* Encabezado aún más compacto */
+        font-size: 1.2rem; 
     }
 
     button {
-        font-size: 0.9rem; /* Botón más pequeño */
+        font-size: 0.9rem;
     }
 }

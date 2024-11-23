@@ -65,59 +65,60 @@ nav {
 }
 
 /* Media Queries para diseño responsive */
+
 @media only screen and (max-width: 1024px) {
     header {
         grid-template-areas: 
             'logo'
-            'nav'; /* Coloca el logo y la navegación en columnas */
+            'nav'; 
     }
 
     .logo {
-        width: 10rem; /* Reduce el tamaño del logo */
+        width: 10rem; 
         justify-content: center;
         align-items: center;
     }
 
     nav {
-        width: 100%; /* Ajusta el ancho de la barra de navegación */
+        width: 100%; 
         height: auto;
     }
 
     .menu {
-        flex-direction: column; /* Cambia a disposición vertical */
+        flex-direction: column; 
         margin: 2rem auto;
         font-size: 1rem;
-        width: auto; /* Ajusta el ancho al contenido */
+        width: auto; 
         height: auto;
     }
 
     .menu li a {
-        padding: 0.5rem 1rem; /* Reduce el padding */
+        padding: 0.5rem 1rem;
         text-align: center;
     }
 
     .submenu li a {
-        padding: 0.5rem 1rem; /* Ajusta el padding para el submenú */
+        padding: 0.5rem 1rem; 
     }
 }
 
 @media only screen and (max-width: 768px) {
     .menu {
-        font-size: 0.875rem; /* Reduce el tamaño del texto */
+        font-size: 0.875rem; 
         margin: 1rem auto;
     }
 
     .menu li a {
-        padding: 0.5rem; /* Ajusta el espacio para pantallas pequeñas */
+        padding: 0.5rem; 
     }
 
     .submenu {
-        position: relative; /* Asegura que el submenú esté correctamente alineado */
+        position: relative; 
         width: 100%;
     }
 
     .submenu li a {
-        padding: 0.3rem 0.8rem; /* Reduce más el padding del submenú */
+        padding: 0.3rem 0.8rem; 
     }
 }
 
@@ -125,31 +126,31 @@ nav {
     header {
         grid-template-areas: 
             'logo'
-            'nav'; /* Mantiene la disposición vertical */
+            'nav'; 
         padding: 0.5rem;
     }
 
     .logo {
-        width: 8rem; /* Reduce aún más el tamaño del logo */
+        width: 8rem; 
     }
 
     .menu {
-        font-size: 0.75rem; /* Reduce el tamaño del texto */
+        font-size: 0.75rem; 
         margin: 1rem auto;
     }
 
     .menu li a {
-        padding: 0.3rem; /* Espaciado compacto para dispositivos pequeños */
+        padding: 0.3rem; 
     }
 
     .submenu {
         position: relative;
-        width: 100%; /* Asegura que el submenú ocupe toda la fila */
+        width: 100%; 
     }
 
     .submenu li a {
-        padding: 0.2rem 0.5rem; /* Ajusta el padding para submenús en pantallas pequeñas */
-        margin-left: 0; /* Elimina el margen izquierdo */
+        padding: 0.2rem 0.5rem; 
+        margin-left: 0; 
     }
 }
 

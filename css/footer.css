@@ -76,70 +76,71 @@ footer .container {
 }
 
 /* Media Queries para diseño responsive */
+
 @media (max-width: 1024px) {
     footer .container {
-        flex-direction: column; /* Coloca los elementos en columna */
-        padding: 1rem 2rem; /* Reduce el padding para pantallas medianas */
+        flex-direction: column; 
+        padding: 1rem 2rem; 
     }
 
     .social-media {
-        flex-wrap: wrap; /* Permite que los íconos se ajusten en varias filas */
-        margin: 0.5rem 0; /* Reduce el margen */
+        flex-wrap: wrap; 
+        margin: 0.5rem 0; 
     }
 
     .element {
-        font-size: 2rem; /* Reduce el tamaño de los íconos */
-        margin: 0.5rem; /* Ajusta el margen */
+        font-size: 2rem; 
+        margin: 0.5rem; 
     }
 
     .menu-item {
-        font-size: 1rem; /* Reduce el tamaño del texto */
-        margin: 0.5rem; /* Ajusta el margen */
+        font-size: 1rem; 
+        margin: 0.5rem;
     }
 }
 
 @media (max-width: 768px) {
     footer .container {
-        padding: 0.5rem 1rem; /* Reduce aún más el padding */
+        padding: 0.5rem 1rem; 
     }
 
     .social-media {
-        justify-content: space-between; /* Alinea los íconos con más espacio */
-        margin: 0.25rem 0; /* Reduce el margen */
+        justify-content: space-between; 
+        margin: 0.25rem 0; 
     }
 
     .element {
-        font-size: 1.5rem; /* Reduce el tamaño de los íconos */
+        font-size: 1.5rem;
     }
 
     .menu-item {
-        font-size: 0.875rem; /* Ajusta el tamaño del texto */
-        margin: 0.25rem; /* Reduce el margen */
+        font-size: 0.875rem; 
+        margin: 0.25rem; 
     }
 }
 
 @media (max-width: 480px) {
     footer .container {
-        padding: 0.5rem; /* Reduce el padding para pantallas muy pequeñas */
+        padding: 0.5rem; 
     }
 
     .social-media {
-        flex-direction: column; /* Coloca los íconos en columna */
-        margin: 0.25rem 0; /* Ajusta el margen */
+        flex-direction: column; 
+        margin: 0.25rem 0; 
     }
 
     .element {
-        font-size: 1.25rem; /* Reduce significativamente el tamaño de los íconos */
-        margin: 0.25rem 0; /* Ajusta el margen superior e inferior */
+        font-size: 1.25rem; 
+        margin: 0.25rem 0; 
     }
 
     .menu-item {
-        font-size: 0.75rem; /* Ajusta el tamaño del texto */
-        margin: 0.25rem; /* Ajusta el margen */
+        font-size: 0.75rem; 
+        margin: 0.25rem; 
     }
 
     .derechos {
-        font-size: 0.75rem; /* Reduce el tamaño del texto */
-        padding: 0.5rem; /* Ajusta el padding inferior */
+        font-size: 0.75rem;
+        padding: 0.5rem; 
     }
 }

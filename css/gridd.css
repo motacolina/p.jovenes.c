@@ -73,15 +73,16 @@ header {
 }
 
 /* Media Queries para diseño responsive */
+
 @media only screen and (max-width: 1024px) {
     header {
         grid-template-areas: 
             'logo titulo'
-            'nav nav'; /* Ajusta la navegación en una fila separada */
+            'nav nav'; 
     }
 
     .menus-secundarios {
-        grid-template-columns: repeat(2, 1fr); /* Divide en dos columnas */
+        grid-template-columns: repeat(2, 1fr); 
     }
 }
 
@@ -90,11 +91,11 @@ header {
         grid-template-areas: 
             'logo'
             'titulo'
-            'nav'; /* Coloca todos los elementos en columnas */
+            'nav';
     }
 
     .menus-secundarios {
-        grid-template-columns: repeat(1, 1fr); /* Una columna para cada elemento */
+        grid-template-columns: repeat(1, 1fr); 
     }
 
     .metodo1,
@@ -105,7 +106,7 @@ header {
     .opcion2,
     .opcion3,
     .opcion4 {
-        text-align: center; /* Centra el contenido */
+        text-align: center;
     }
 }
 
@@ -114,12 +115,12 @@ header {
         grid-template-areas: 
             'logo'
             'titulo'
-            'nav'; /* Mantiene la disposición en columnas */
+            'nav'; 
     }
 
     .menus-secundarios {
-        grid-template-columns: 1fr; /* Una columna para cada menú secundario */
-        gap: 0.5rem; /* Añade espacio entre los elementos */
+        grid-template-columns: 1fr; 
+        gap: 0.5rem; 
     }
 
     .metodo1,
@@ -130,7 +131,7 @@ header {
     .opcion2,
     .opcion3,
     .opcion4 {
-        font-size: 0.875rem; /* Reduce el tamaño del texto para pantallas pequeñas */
-        padding: 0.5rem; /* Ajusta el padding */
+        font-size: 0.875rem; 
+        padding: 0.5rem; 
     }
 }

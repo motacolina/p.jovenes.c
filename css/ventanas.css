@@ -213,50 +213,49 @@ button a {
 
 @media only screen and (max-width: 768px) {
     .contenido1 {
-        width: 22rem;  /* Reducir el tamaño */
+        width: 22rem; 
         height: auto;
     }
 
     .pop {
-        width: 22rem;  /* Reducir el tamaño */
+        width: 22rem;  
         height: auto;
-        margin-left: 2rem;  /* Ajustar la posición */
+        margin-left: 2rem; 
     }
 
     .remix {
-        width: 20rem;  /* Reducir el tamaño */
+        width: 20rem;  
         height: auto;
-        margin-left: 2rem;  /* Ajustar la posición */
+        margin-left: 2rem;  
     }
 
     .ventana, .venta, .ventan {
-        position: relative;  /* Asegurar que las ventanas se ajusten */
+        position: relative; 
         left: auto;
         top: auto;
-        margin-top: 1rem;  /* Ajustar el margen superior */
+        margin-top: 1rem;  
     }
 
     button {
-        width: 6rem;  /* Hacer los botones más pequeños */
+        width: 6rem;  
         height: 2rem;
     }
 }
 
-/* Para pantallas pequeñas (máximo 480px) */
 @media only screen and (max-width: 480px) {
     .contenido1 {
-        width: 18rem;  /* Reducir aún más el tamaño */
+        width: 18rem;  
         height: auto;
     }
 
     .pop {
-        width: 18rem;  /* Reducir aún más el tamaño */
-        margin-left: 1rem;  /* Ajustar la posición */
+        width: 18rem;  
+        margin-left: 1rem; 
     }
 
     .remix {
-        width: 16rem;  /* Reducir aún más el tamaño */
-        margin-left: 1rem;  /* Ajustar la posición */
+        width: 16rem; 
+        margin-left: 1rem;  
     }
 
     .ventana, .venta, .ventan {
@@ -267,14 +266,14 @@ button a {
     }
 
     button {
-        width: 5rem;  /* Reducir tamaño de los botones */
+        width: 5rem; 
         height: 1.8rem;
     }
 
     .metodo1, .metodo2, .metodo3, .metodo4,
     .opcion1, .opcion2, .opcion3, .opcion4,
     .espera {
-        font-size: 0.875rem;  /* Reducir tamaño de la fuente */
-        padding: 0.25rem;  /* Reducir el padding */
+        font-size: 0.875rem;  
+        padding: 0.25rem;  
     }
 }

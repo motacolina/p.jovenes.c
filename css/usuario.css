@@ -68,57 +68,57 @@ body {
 
 @media only screen and (max-width: 768px) {
     #inf-ppal {
-        width: 22rem; /* Reducir el tamaño del contenedor */
+        width: 22rem; 
         margin-left: auto;
-        margin-right: auto; /* Centrar el contenedor */
+        margin-right: auto; 
     }
 
     .start {
-        font-size: 1.5rem; /* Reducir el tamaño del texto */
-        margin-top: 5rem; /* Ajustar el margen superior */
+        font-size: 1.5rem; 
+        margin-top: 5rem; 
     }
 
     input {
-        width: 12rem; /* Reducir el tamaño de los inputs */
+        width: 12rem; 
     }
 
     #inf-ppal button {
-        width: 7rem; /* Reducir el tamaño del botón */
+        width: 7rem; 
         margin-left: auto;
-        margin-right: auto; /* Centrar el botón */
+        margin-right: auto;
     }
 
     #inf-ppal a {
-        font-size: 1.2rem; /* Reducir el tamaño del enlace */
+        font-size: 1.2rem;
     }
 
     #inf-ppal label {
-        margin-left: 2rem; /* Ajustar el margen de la etiqueta */
+        margin-left: 2rem; 
     }
 }
 
-/* Para pantallas pequeñas (max-width: 480px) */
+
 @media only screen and (max-width: 480px) {
     #inf-ppal {
-        width: 18rem; /* Reducir aún más el tamaño del contenedor */
+        width: 18rem; 
     }
 
     .start {
-        font-size: 1.25rem; /* Reducir el tamaño del texto */
-        margin-top: 3rem; /* Ajustar el margen superior */
+        font-size: 1.25rem; 
+        margin-top: 3rem; 
     }
 
     input {
-        width: 10rem; /* Reducir aún más el tamaño de los inputs */
+        width: 10rem; 
     }
 
     #inf-ppal button {
-        width: 6rem; /* Reducir aún más el tamaño del botón */
-        margin-top: 2rem; /* Ajustar el margen superior */
+        width: 6rem;
+        margin-top: 2rem; 
     }
 
     #inf-ppal a {
-        font-size: 1rem; /* Reducir el tamaño del enlace */
+        font-size: 1rem;
     }
 
 
