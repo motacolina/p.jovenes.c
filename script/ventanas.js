@@ -1,3 +1,5 @@
+
+
 function abrirt(){
     document.getElementById("vent").style.display="block";
 }
