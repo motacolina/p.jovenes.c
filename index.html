@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,61 +9,93 @@
     <link rel="shortcut icon" href="assets/iconos.png/favicon.png">
     <link rel="stylesheet" href="css/ventanas.css">
 </head>
+
 <body>
-                                  <!--Logo y Titulo-->
+    <!--Logo y Titulo-->
     <header class="estado">
         <div class="logo">
-                <img src="assets/img.jpg/logo.div.png" width="200rem" height=auto alt="alusion de marca">
+            <img src="assets/img.jpg/logo.div.png" width="200rem" height=auto alt="alusion de marca">
         </div>
-                                  <!--menu-->
-            <nav>
-                <ul class="menu" >
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="#partes">Quienes somos</a></li>
-                        <li class="unico"><a href="">Servicios</a>
-                            <ul class="submenu" id="continuacion"> 
-                                <li><a href="javascript:abrirt()">Transferencias</a></li>
-                                <li><a href="javascript:abrird()">Depósitos</a></li>
-                                <li><a href="javascript:abrirtar()">Tarjeta de Crédito</a></li>
-                            </ul>
-                        </li>
-                    <li><a href="html/registro.html">Regístrate</a></li>
-                </ul>
-            </nav>
-            <section class="novedad">
-                <div class="contenido1" id="vent">
-                    <ul class="menus-secundarios">
-                     <div class="metodo1" >
-                        <li><a href="">Transferencia Modalidad Directa</a></li>
-                        <p>Para esta transación el solicitante (la persona) debe contar con una cuenta bancaria en la entidad financiera (Banco), de modo que este se encargue de la solicitud utilizando la plataforma Divisas para su gestión hacia el Banco escogido como destino. A su vez, el beneficiario (quien recibe) debe poseer una cuenta bancaria a la cual dirigir los fondos destinados.</p><br>
-                        <p>Si desea realizar <strong>esta</strong> solicitud: <button><a href="html/registro.html">Inicie Sesión</button></a></p>
-                        <img class="first" src="assets/iconos.png/banco a banco.png" width="6.25rem" height="auto" alt=""> <p class="disco"><strong> Costo de la operación: 6% del monto enviado.</strong></p>
-                    </div>
-                        <div class="metodo2">
-                        <li><a href="">Trasferencia Modalidad Indirecta</a></li>
-                        <p>Es aquella modalidad en la que el destinatario posee una cuenta bancaria en alguna institución financiera, de modo que este procesa la solicitud a través de la plataforma Divisas hacia un Banco escogido en el que el beneficiario (quien recibe) NO posee cuenta bancaria. Para este caso se procesará una Cuenta Express creada para el momento de la transación, ante la cual dicho beneficiario debe presentar documentación, código de la Cuenta Express, correo enviado por el Banco y presentarse a la hora y día pactado para efectuarla. </p>
-                        <p>Si desea realizar <strong>esta</strong> solicitud: <button><a href="html/registro.html">Inicie Sesión</button></a></p>
-                        <img class="first" src="assets/iconos.png/mod. indirecta.png" width="6.25rem" height="auto" alt=""><p class="disco"><strong>Costo de la operación: 7% del monto enviado.</strong></p>
-                        </div>
-                        <div class="metodo3">
-                            <li><a href="">Transferencia Modalidad Solicitante Directa</a></li>
-                            <p>Es aplicable para aquellos casos en el que el solicitante (quien envía) no posee cuenta bancaria y el beneficiario (quien recibe) si. Para lo cual la entidad Bancaria escogida realizará la solicitud a través de nuestra plataforma Divisas con la entidad a la que está vinculada el beneficiario. </p>
-                            <p>Si desa realizar <strong>esta</strong> solicitud: <button><a href="html/registro.html">Inicie Sesión</button></a></p>
-                            <img class="first" src="assets/iconos.png/mod. directa.png" width="6.25rem" height="auto" alt=""><p class="disco"><strong>Costo de la operación: 7% del monto enviado.</strong></p>
-                        </div>
-                            <div class="metodo4">
-                                <li><a href="">Transferencia Modalidad Solicitante Indirecta</a></li>
-                                <p>El caso de esta modalidad es aplicable cuando los dos relacionados (quien envía y quien recibe) no poseen cuenta bancaria. Por lo cual el Banco escogido procesará la transación a través de la plataforma Divisas hacia el Banco que mejor convenga para el destinatario, todo esto por medio de una Cuenta Express en la que ambos recibiran información sobre el código de la Cuenta Express, correo electrónico de parte del banco y los datos sobre la hora y el día en el que se debe acudir al banco para su retiro. </p>
-                                <p>Si desea realizar <strong>esta</strong> solicitud: <button><a href="html/registro.html">Inicie Sesión</button></a></p>
-                                <img class="first" src="assets/iconos.png/solic. indirecta.png" width="6.25rem" height="auto" alt=""><p class="disco"><strong>Costo de la operación 10% del monto enviado.</strong></p>
-                            </div>
+        <!--menu-->
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#partes">Quienes somos</a></li>
+                <li class="unico"><a href="">Servicios</a>
+                    <ul class="submenu" id="continuacion">
+                        <li><a href="javascript:abrirt()">Transferencias</a></li>
+                        <li><a href="javascript:abrird()">Depósitos</a></li>
+                        <li><a href="javascript:abrirtar()">Tarjeta de Crédito</a></li>
                     </ul>
-                        <div class="ventana">
-                            <div id="cerrart"> <a href="javascript:cerrart()"><img src="assets/iconos.png/marca-x.png" width="20rem" height="auto" alt=""></a></div>
-                        </div>
+                </li>
+                <li><a href="html/registro.html">Regístrate</a></li>
+            </ul>
+        </nav>
+        <section class="novedad">
+            <div class="contenido1" id="vent">
+                <ul class="menus-secundarios">
+                    <div class="metodo1">
+                        <li><a href="">Transferencia Modalidad Directa</a></li>
+                        <p>Para esta transación el solicitante (la persona) debe contar con una cuenta bancaria en la
+                            entidad financiera (Banco), de modo que este se encargue de la solicitud utilizando la
+                            plataforma Divisas para su gestión hacia el Banco escogido como destino. A su vez, el
+                            beneficiario (quien recibe) debe poseer una cuenta bancaria a la cual dirigir los fondos
+                            destinados.</p><br>
+                        <p>Si desea realizar <strong>esta</strong> solicitud: <button><a
+                                    href="html/registro.html">Inicie Sesión</button></a></p>
+                        <img class="first" src="assets/iconos.png/banco a banco.png" width="6.25rem" height="auto"
+                            alt="">
+                        <p class="disco"><strong> Costo de la operación: 6% del monto enviado.</strong></p>
+                    </div>
+                    <div class="metodo2">
+                        <li><a href="">Trasferencia Modalidad Indirecta</a></li>
+                        <p>Es aquella modalidad en la que el destinatario posee una cuenta bancaria en alguna
+                            institución financiera, de modo que este procesa la solicitud a través de la plataforma
+                            Divisas hacia un Banco escogido en el que el beneficiario (quien recibe) NO posee cuenta
+                            bancaria. Para este caso se procesará una Cuenta Express creada para el momento de la
+                            transación, ante la cual dicho beneficiario debe presentar documentación, código de la
+                            Cuenta Express, correo enviado por el Banco y presentarse a la hora y día pactado para
+                            efectuarla. </p>
+                        <p>Si desea realizar <strong>esta</strong> solicitud: <button><a
+                                    href="html/registro.html">Inicie Sesión</button></a></p>
+                        <img class="first" src="assets/iconos.png/mod. indirecta.png" width="6.25rem" height="auto"
+                            alt="">
+                        <p class="disco"><strong>Costo de la operación: 7% del monto enviado.</strong></p>
+                    </div>
+                    <div class="metodo3">
+                        <li><a href="">Transferencia Modalidad Solicitante Directa</a></li>
+                        <p>Es aplicable para aquellos casos en el que el solicitante (quien envía) no posee cuenta
+                            bancaria y el beneficiario (quien recibe) si. Para lo cual la entidad Bancaria escogida
+                            realizará la solicitud a través de nuestra plataforma Divisas con la entidad a la que está
+                            vinculada el beneficiario. </p>
+                        <p>Si desa realizar <strong>esta</strong> solicitud: <button><a href="html/registro.html">Inicie
+                                    Sesión</button></a></p>
+                        <img class="first" src="assets/iconos.png/mod. directa.png" width="6.25rem" height="auto"
+                            alt="">
+                        <p class="disco"><strong>Costo de la operación: 7% del monto enviado.</strong></p>
+                    </div>
+                    <div class="metodo4">
+                        <li><a href="">Transferencia Modalidad Solicitante Indirecta</a></li>
+                        <p>El caso de esta modalidad es aplicable cuando los dos relacionados (quien envía y quien
+                            recibe) no poseen cuenta bancaria. Por lo cual el Banco escogido procesará la transación a
+                            través de la plataforma Divisas hacia el Banco que mejor convenga para el destinatario, todo
+                            esto por medio de una Cuenta Express en la que ambos recibiran información sobre el código
+                            de la Cuenta Express, correo electrónico de parte del banco y los datos sobre la hora y el
+                            día en el que se debe acudir al banco para su retiro. </p>
+                        <p>Si desea realizar <strong>esta</strong> solicitud: <button><a
+                                    href="html/registro.html">Inicie Sesión</button></a></p>
+                        <img class="first" src="assets/iconos.png/solic. indirecta.png" width="6.25rem" height="auto"
+                            alt="">
+                        <p class="disco"><strong>Costo de la operación 10% del monto enviado.</strong></p>
+                    </div>
+                </ul>
+                <div class="ventana">
+                    <div id="cerrart"> <a href="javascript:cerrart()"><img src="assets/iconos.png/marca-x.png"
+                                width="20rem" height="auto" alt=""></a></div>
                 </div>
-            </section>
-    
+            </div>
+        </section>
+
         <section class="arco">
             <div class="pop" id="ventd">
                 <ul class="menus-secundarios">
@@ -70,65 +103,107 @@
                         <li><a href="">Depósito Modalidad Mutua</a></li>
                         <p>Esta modalidad abarca el caso en el que ambas personas (quien envía y quien recibe) NO poseen cuenta bancaria, para lo cual se procederá a crear una Cuenta Express (expirable) cuyos datos como lo son el código de cuenta, correo enviado por el banco y datos del día y hora de vigencia les serán suministardos a ambas personas. En el caso de quien recibe debe presentar documentación que lo acredite como Beneficiario.</p>
                         <p>Si desea realizar <strong>esta</strong> solicitud: <button><a href="html/registro.html">Inicie Sesión</button></a></p>
-                        <img class="second" src="/assets/iconos.png/dep. mutuo.png" width="6.25rem" height="auto" alt=""><p class="disco"><strong>Costo de la operación: 10% del monto enviado.</strong></p>
+                        <img class="second" src="assets/iconos.png/dep. mutuo.png" width="6.25rem" height="auto" alt=""><p class="disco"><strong>Costo de la operación: 10% del monto enviado.</strong></p>
                     </div>
                     <div class="opcion2">
                         <li><a href="">Depósito Modalidad Sincronizada</a></li>
-                        <p>Caso en el cual el destinatario (quien envía) NO poseecuenta bancaria pero, el beneficiario (quien recibe) SI. Para ello el Banco procesará la solicitud a través de la plataforma Divisas hacia la entidad bancaria en la que el detinatario posee cuenta. </p>
-                        <p>Si desea realizar <strong>esta</strong>solicitud: <button><a href="">Inicie Sesión</button></a></p>
-                        <img class="second" src="assets/iconos.png/dep. sincr.png" width="6.25rem" height="auto" alt=""><p class="disco"><strong>Costo de la operación: 6% del monto enviado.</strong></p>
+                        <p>Caso en el cual el destinatario (quien envía) NO poseecuenta bancaria pero, el beneficiario
+                            (quien recibe) SI. Para ello el Banco procesará la solicitud a través de la plataforma
+                            Divisas hacia la entidad bancaria en la que el detinatario posee cuenta. </p>
+                        <p>Si desea realizar <strong>esta</strong>solicitud: <button><a href="">Inicie
+                                    Sesión</button></a></p>
+                        <img class="second" src="assets/iconos.png/dep. sincr.png" width="6.25rem" height="auto" alt="">
+                        <p class="disco"><strong>Costo de la operación: 6% del monto enviado.</strong></p>
                     </div>
-                   <div class="opcion3">
+                    <div class="opcion3">
                         <li><a href="">Depósito Modalidad Atípica</a></li>
-                        <p>Sucede en el caso donde el destinatario (quien envía) posee cuenta bancaria pero, el beneficiario (quien recibe) NO. De modo que el Banco realiza la solicitud a través de la plataforma Divisas. Como en este caso el beneficiario no posee cuenta bancaria, se procederáa crear una Cuenta Express, la cual sólo tendrá vigencia para el momento de entrega, y en el caso del beneficiario debe presentar la documentación que lo acredite como tal además de el correo electónico enviado por el banco y asistir a la hora y día pactado. </p>
-                        <p>Si desea realizar <strong>esta</strong> solicitud: <button><a href="html/registro.html">Inicie Sesión</button></a></p>
-                    <img class="second" src="assets/iconos.png/mod. atipica.png" width="6.25rem" height="auto" alt=""><p class="disco"><strong>Costo de la operación: 7% del monto enviado.</strong></p>
-                   </div>
-                   <div class="opcion4">
-                        <li><a href="">Depósito Modalidad Típica</a></li>
-                        <p>La modalidad típica es aquella en la cual ambas personas (destinatarioy beneficiario) poseen cuenta bancaria. De modo que el Banco a través de la plataforma Divisas procesará la transación.</p>
-                        <p>Si desea realizar <strong>esta</strong> solicitud: <button><a href="html/registro.html">Inicie Sesión</button></a></p>
-                    <img class="second" src="assets/iconos.png/mod. tipica.png" width="6.25rem" height="auto" alt=""><p><strong> Costo de la operación: 6% del monto enviado.</strong></p>
-                   </div>  
-                </ul>
-                    <div class="venta"> 
-                        <div id="cerrard"> <a href="javascript:cerrard()"><img src="assets/iconos.png/marca-x.png" width="20rem" height="auto" alt=""></a></div>
+                        <p>Sucede en el caso donde el destinatario (quien envía) posee cuenta bancaria pero, el
+                            beneficiario (quien recibe) NO. De modo que el Banco realiza la solicitud a través de la
+                            plataforma Divisas. Como en este caso el beneficiario no posee cuenta bancaria, se
+                            procederáa crear una Cuenta Express, la cual sólo tendrá vigencia para el momento de
+                            entrega, y en el caso del beneficiario debe presentar la documentación que lo acredite como
+                            tal además de el correo electónico enviado por el banco y asistir a la hora y día pactado.
+                        </p>
+                        <p>Si desea realizar <strong>esta</strong> solicitud: <button><a
+                                    href="html/registro.html">Inicie Sesión</button></a></p>
+                        <img class="second" src="assets/iconos.png/mod. atipica.png" width="6.25rem" height="auto"
+                            alt="">
+                        <p class="disco"><strong>Costo de la operación: 7% del monto enviado.</strong></p>
                     </div>
+                    <div class="opcion4">
+                        <li><a href="">Depósito Modalidad Típica</a></li>
+                        <p>La modalidad típica es aquella en la cual ambas personas (destinatarioy beneficiario) poseen
+                            cuenta bancaria. De modo que el Banco a través de la plataforma Divisas procesará la
+                            transación.</p>
+                        <p>Si desea realizar <strong>esta</strong> solicitud: <button><a
+                                    href="html/registro.html">Inicie Sesión</button></a></p>
+                        <img class="second" src="assets/iconos.png/mod. tipica.png" width="6.25rem" height="auto"
+                            alt="">
+                        <p><strong> Costo de la operación: 6% del monto enviado.</strong></p>
+                    </div>
+                </ul>
+                <div class="venta">
+                    <div id="cerrard"> <a href="javascript:cerrard()"><img src="assets/iconos.png/marca-x.png"
+                                width="20rem" height="auto" alt=""></a></div>
+                </div>
             </div>
         </section>
-        
-           <aside class="tera">
+
+        <aside class="tera">
             <div class="remix" id="ventar">
                 <ul class="menus-secundarios">
                     <div class="espera">
                         <li><a href="">Modalidad Única</a></li>
-                        <p>Esta modalidad facilita el procesamiento del envío de dinero a través de la debitación de la tarjeta de crédito. Proceso que se realiza en las instalaciones del Banco y que permite canalizar dicho envío por medio de una Cuenta Express hacia el destinatario. Este debe presentar la documentación requerida (Documento de Identidad, pasaporte y/o cualquier otro), el correo por parte del Banco y asistir a la hora y día pactado para la entrega. </p>
-                        <p>Si desea realizar <strong>esta</strong> solicitud: <button><a href="html/registro.html">Inicie Sesión</button></a></p>
-                        <img class="third" src="assets/iconos.png/tarjetas.png" width="6.25rem" height="auto" alt=""><p class="disco"><strong>Costo de la operación: 6% del monto enviado.</strong></p>
+                        <p>Esta modalidad facilita el procesamiento del envío de dinero a través de la debitación de la
+                            tarjeta de crédito. Proceso que se realiza en las instalaciones del Banco y que permite
+                            canalizar dicho envío por medio de una Cuenta Express hacia el destinatario. Este debe
+                            presentar la documentación requerida (Documento de Identidad, pasaporte y/o cualquier otro),
+                            el correo por parte del Banco y asistir a la hora y día pactado para la entrega. </p>
+                        <p>Si desea realizar <strong>esta</strong> solicitud: <button><a
+                                    href="html/registro.html">Inicie Sesión</button></a></p>
+                        <img class="third" src="assets/iconos.png/tarjetas.png" width="6.25rem" height="auto" alt="">
+                        <p class="disco"><strong>Costo de la operación: 6% del monto enviado.</strong></p>
                     </div>
-                </ul>    
-                    <div class="ventan">
-                        <div id="cerrartar"> <a href="javascript:cerrartar()"><img src="assets/iconos.png/marca-x.png" width="20rem" height="auto" alt=""></a></div>
-                    </div>
+                </ul>
+                <div class="ventan">
+                    <div id="cerrartar"> <a href="javascript:cerrartar()"><img src="assets/iconos.png/marca-x.png"
+                                width="20rem" height="auto" alt=""></a></div>
+                </div>
             </div>
-           </aside>
+        </aside>
 
     </header>
-                       <!--Inicio de main-->
+    <!--Inicio de main-->
     <main>
         <div class="titulacion">
-            <h1><strong>Bienvenido</strong></h1><br><br>
+            <h1 id="mensajeBienvenida"><strong></strong></h1><br><br>
+
+            <script>
+                const nombreUsuario = localStorage.getItem("nombreUsuario"); //llama el nombre del localstorage y lo almacena en la constante
+
+                //Condicion, si hay valor en la constante ejecutar lo siguiente. 
+                if (nombreUsuario) {
+                    document.getElementById("mensajeBienvenida").textContent = `Bienvenido ${nombreUsuario}`;
+                } else {
+                    document.getElementById("mensajeBienvenida").textContent = "Bienvenido";
+                }
+            </script>
 
             <div class="subtitulo">
                 <h2>Abre tu mente hacia una nueva manera de realizar tus operaciones.</h2><br><br>
             </div>
-          
+
             <section class="descripcion">
-                <p><h3>Divisas surge asumiendo el reto de innovar modalidades de conexión a niveles internacionales nunca antes vistos, con una lista de aliados que respaldan este propósito ya que están presentes en gran variedad de paises de América y Europa; logrando así un servicio estratégico para depósitos y transferencias.</h3></p>
-             </section>
+                <p>
+                <h3>Divisas surge asumiendo el reto de innovar modalidades de conexión a niveles internacionales nunca
+                    antes vistos, con una lista de aliados que respaldan este propósito ya que están presentes en gran
+                    variedad de paises de América y Europa; logrando así un servicio estratégico para depósitos y
+                    transferencias.</h3>
+                </p>
+            </section>
         </div>
-        
-                         <!--Quienes somos -->
+
+        <!--Quienes somos -->
         <div class="fotografias">
             <ul class="carrusel">
                 <li id="slider1">
@@ -143,7 +218,7 @@
                 <li id="slider4">
                     <img src="assets/img.jpg/tarjeta visa.jpg" width="43.75rem" height="25rem" alt="">
                 </li>
-            </ul> 
+            </ul>
             <ul class="acti">
                 <li class="a1">
                     <a href="#slider1"><strong>1</strong></a>
@@ -157,130 +232,169 @@
                 <li class="a1">
                     <a href="#slider4"><strong>4</strong></a>
                 </li>
-            </ul> 
+            </ul>
         </div>
-            <div class="titulo-m1">
-                <h2 id="partes">¿Quienes somos?</h2>
-            </div>
-                <div class="texto">
-                    <p>Divisas es una plataforma que cuenta con aliados de reconocido respaldo y trayectoria en más de 160 paises de América y Europa, creada con el propósito de originar conexiones internacionales seguras y eficientes, que permitan alos usuarios escoger a través de modalidades que cubren un amplio margen de posibilidades en un mismo lugar, bajo políticas del tipo de cambio medio del mercado y bajo condiciones pactadas por entidades financieras y fiscales</p>
-                </div>
-       
+        <div class="titulo-m1">
+            <h2 id="partes">¿Quienes somos?</h2>
+        </div>
+        <div class="texto">
+            <p>Divisas es una plataforma que cuenta con aliados de reconocido respaldo y trayectoria en más de 160
+                paises de América y Europa, creada con el propósito de originar conexiones internacionales seguras y
+                eficientes, que permitan alos usuarios escoger a través de modalidades que cubren un amplio margen de
+                posibilidades en un mismo lugar, bajo políticas del tipo de cambio medio del mercado y bajo condiciones
+                pactadas por entidades financieras y fiscales</p>
+        </div>
 
-            <section class="parte2">
-                 <div class="subtitulo-m2">
-                    <h2 id="partes">Requerimientos:</h2>
-                </div> 
-                    <div class="componente">
-                        <div class="integrado1"><p><strong>Origen de los fondos o prueba de su riqueza:</strong> Datos acerca de ocupación actual, antigüedad, nombre de la empresa.</p>
-                        <img src="assets/iconos.png/procedencia.png" width="80rem" height="auto" alt=""></div>
-                        <div class="integrado2"><p><strong>Información sobre destinatario:</strong> Datos sobre su identidad, domicilio, parentesco.</p>
-                        <img src="assets/iconos.png/destinatario.png" width="80rem" height="auto" alt=""></div>
-                        <div class="integrado3"><p><strong>Motivo de la consignación:</strong> Situación de salud, estudios, emergencia, desastre natural, accidente, defunción, compra de productos o bienes, viajes, papeleo (registros, divorcio, matrimonio,  hipotecas).</p>
-                        <img src="assets/iconos.png/mujer-embarazada.png" width="80rem" height="auto" alt="">
-                        <img src="assets/iconos.png/hipotecas.png" width="80rem" height="auto" alt=""></div>
-                        <div class="integrado4"><p><strong>Límite para las transferencias:</strong> Aval de sus ingresos si la suma supera los 1500,00$ mensuales.</p>
-                        <img src="assets/iconos.png/senal-de-stop.png" width="80rem" height="auto" alt=""></div>
-                    </div>
-         
-                    <div class="subtitulo-m2">
-                        <h2>Ventajas</h2></div>
-                    <ul class="novedad">
-                        <li class="present">Programación de depósitos fijos mensuales de hasta un 40% del ingreso salarial, por periodos semestrales renovables.</li>
-                        <li class="present">Comisiones competitivas y regidas por el cambio actual del mercado.</li>
-                        <li class="present">Seguridad en cuanto al manejo de datos.</li>
-                        <li class="present">Historial de operaciones que permitirán ofrecer tasas más atractivas.</li>
-                        <li class="present">Flexibilidad de horarios en cuanto a las solicitudes, lo cual permite un gestionamiento más efectivo.</li>
-                        <li class="present">Asistencia técnica.</li>
-                        <li class="present">Informe y monitoreo del proceso de la operación a través del número de teléfono y del correo electrónico suministrado.</li>
-                    </ul>
-            </section>
-       
-    <section class="patrocinadores">
-        <h2>Bancos  y Aliados</h2>
-        <a href="https://www.banesco.com/" target="_blank"><img class="tipos" src="assets/img.jpg/banesco.jpg" width="5rem" height="5rem" alt="logo de banesco"></a>
-        <a href="https://www.bancolombia.com/personas" target="_blank"><img class="tipos" src="assets/img.jpg/bancolombia.jpg" width="5rem" height="5rem" alt="logo de bancolombia"></a>
-        <a href="https://www.bbva.com.co/" target="_blank"><img class="tipos" src="assets/img.jpg/bbva.jpg" width="5rem" height="5rem" alt="logo de bbva"></a>
-        <a href="https://www.citibank.com/icg/sa/latam/colombia/" target="_blank"><img class="tipos" src="assets/img.jpg/citygroup.jpg" width="5rem" height="5rem" alt="logo de citygroup"></a>
-        <a href="https://www.scotiabankchile.cl/" target="_blank"><img class="tipos" src="assets/img.jpg/scotiabank.jpg" width="5rem" height="5rem" alt="logo de scotiabank"><br> <br></a>
-        <p><h2>Empresas Aliadas</h2></p>
-        <a href="https://www.americanexpress.com/" target="_blank"><img class="tipos" src="assets/img.jpg/american.jpg" width="5.625rem" height="5.625rem" alt="representacion de American Express"></a>
-        <a href="https://www.mastercard.com.co/es-co.html" target="_blank"><img  class="tipos" src="assets/img.jpg/masterc.jpg" width="5.625rem" height="5.625rem" alt="representacion de mastercard"></a>
-        <a href="https://www.visa.com.co/pague-con-visa/tarjetas/credito.html" target="_blank"><img  class="tipos" src="assets/img.jpg/n.visa.jpg" width="5.625rem" height="5.625rem" alt="representacion de visa"></a>
-    </section>
-    
-        <section class="comentarios">
-           <div class="letra">
-            <h2>Reseña de clientes</h2>
-            <img src="assets/img.jpg/siguenos.jpg" width="190rem" height="auto" alt="">
-           </div> 
-           <div class="agrego">
-            <div class="reset">
-                <p><strong>Paul Torrealba:</strong> Me genera mucha confianza el respaldo de las entidades que lo integran.</p>
-                <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
-                <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
-                <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
-                <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
-                <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
-                
+
+        <section class="parte2">
+            <div class="subtitulo-m2">
+                <h2 id="partes">Requerimientos:</h2>
             </div>
-            <div class="reset">
-                <p><strong>Enzo Dupont</strong>: Su amplia cobertura para realizar transaciones permite expandir mi negocio. ¡Excelente iniciativa!.</p>
-                <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
-                <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
-                <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
-                <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
-                <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
-                
+            <div class="componente">
+                <div class="integrado1">
+                    <p><strong>Origen de los fondos o prueba de su riqueza:</strong> Datos acerca de ocupación actual,
+                        antigüedad, nombre de la empresa.</p>
+                    <img src="assets/iconos.png/procedencia.png" width="80rem" height="auto" alt="">
+                </div>
+                <div class="integrado2">
+                    <p><strong>Información sobre destinatario:</strong> Datos sobre su identidad, domicilio, parentesco.
+                    </p>
+                    <img src="assets/iconos.png/destinatario.png" width="80rem" height="auto" alt="">
+                </div>
+                <div class="integrado3">
+                    <p><strong>Motivo de la consignación:</strong> Situación de salud, estudios, emergencia, desastre
+                        natural, accidente, defunción, compra de productos o bienes, viajes, papeleo (registros,
+                        divorcio, matrimonio, hipotecas).</p>
+                    <img src="assets/iconos.png/mujer-embarazada.png" width="80rem" height="auto" alt="">
+                    <img src="assets/iconos.png/hipotecas.png" width="80rem" height="auto" alt="">
+                </div>
+                <div class="integrado4">
+                    <p><strong>Límite para las transferencias:</strong> Aval de sus ingresos si la suma supera los
+                        1500,00$ mensuales.</p>
+                    <img src="assets/iconos.png/senal-de-stop.png" width="80rem" height="auto" alt="">
+                </div>
             </div>
-            <div class="reset">
-               <p><strong> Claudia Cruz:</strong> Realizo consignaciones constantemente, por lo que su incentivo de mejorar las tasas para mis operaciones es fabuloso e ideal para mi.</p>
-                <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
-                <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
-                <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
-                <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
-                <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
+
+            <div class="subtitulo-m2">
+                <h2>Ventajas</h2>
             </div>
-            <div class="reset">
-                <p><strong>Gianni Soracci:</strong> Me ahorra mucho trabajola "programación de envíos", además me permite coodinar mis gastos del mes.</p>
-                <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
-                <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
-                <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
-                <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
-                <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
-               
-            </div>
-           </div>
-               
+            <ul class="novedad">
+                <li class="present">Programación de depósitos fijos mensuales de hasta un 40% del ingreso salarial, por
+                    periodos semestrales renovables.</li>
+                <li class="present">Comisiones competitivas y regidas por el cambio actual del mercado.</li>
+                <li class="present">Seguridad en cuanto al manejo de datos.</li>
+                <li class="present">Historial de operaciones que permitirán ofrecer tasas más atractivas.</li>
+                <li class="present">Flexibilidad de horarios en cuanto a las solicitudes, lo cual permite un
+                    gestionamiento más efectivo.</li>
+                <li class="present">Asistencia técnica.</li>
+                <li class="present">Informe y monitoreo del proceso de la operación a través del número de teléfono y
+                    del correo electrónico suministrado.</li>
+            </ul>
         </section>
-    </main> 
-        <footer class="container"  >
-            <ul class="social-media">
-                <li class="element">
-                    <img src="assets/iconos.png/facebook-circle-fill.png" alt="icono de facebook">
-                </li>
-                <li class="element">
-                    <img src="assets/iconos.png/instagram-fill.png" alt="icono de instagram">
-                </li>
-                <li class="element">
-                    <img src="assets/iconos.png/twitter-fill.png" alt="icono de twiter">
-                </li>
-                <li class="element">
-                    <img src="assets/iconos.png/youtube-fill.png" alt="icono de youtube">
-                </li>
-            </ul>
-            <ul class="item">
-                <li class="menu-item">
-                    <p>Siguenos</p>
-                </li>
-                <li class=" menu-item">
-                    <p>Contáctanos</p>
-                </li>
-            </ul>
-               <h4 class="derechos">&copy;copyright 2024 Divisas|Todos los derechos reservados.</h4> 
-    
-    </footer> 
-        
-    <script src="script/registro.js"></script>
+
+        <section class="patrocinadores">
+            <h2>Bancos y Aliados</h2>
+            <a href="https://www.banesco.com/" target="_blank"><img class="tipos" src="assets/img.jpg/banesco.jpg"
+                    width="5rem" height="5rem" alt="logo de banesco"></a>
+            <a href="https://www.bancolombia.com/personas" target="_blank"><img class="tipos"
+                    src="assets/img.jpg/bancolombia.jpg" width="5rem" height="5rem" alt="logo de bancolombia"></a>
+            <a href="https://www.bbva.com.co/" target="_blank"><img class="tipos" src="assets/img.jpg/bbva.jpg"
+                    width="5rem" height="5rem" alt="logo de bbva"></a>
+            <a href="https://www.citibank.com/icg/sa/latam/colombia/" target="_blank"><img class="tipos"
+                    src="assets/img.jpg/citygroup.jpg" width="5rem" height="5rem" alt="logo de citygroup"></a>
+            <a href="https://www.scotiabankchile.cl/" target="_blank"><img class="tipos"
+                    src="assets/img.jpg/scotiabank.jpg" width="5rem" height="5rem" alt="logo de scotiabank"><br>
+                <br></a>
+            <p>
+            <h2>Empresas Aliadas</h2>
+            </p>
+            <a href="https://www.americanexpress.com/" target="_blank"><img class="tipos"
+                    src="assets/img.jpg/american.jpg" width="5.625rem" height="5.625rem"
+                    alt="representacion de American Express"></a>
+            <a href="https://www.mastercard.com.co/es-co.html" target="_blank"><img class="tipos"
+                    src="assets/img.jpg/masterc.jpg" width="5.625rem" height="5.625rem"
+                    alt="representacion de mastercard"></a>
+            <a href="https://www.visa.com.co/pague-con-visa/tarjetas/credito.html" target="_blank"><img class="tipos"
+                    src="assets/img.jpg/n.visa.jpg" width="5.625rem" height="5.625rem" alt="representacion de visa"></a>
+        </section>
+
+        <section class="comentarios">
+            <div class="letra">
+                <h2>Reseña de clientes</h2>
+                <img src="assets/img.jpg/siguenos.jpg" width="190rem" height="auto" alt="">
+            </div>
+            <div class="agrego">
+                <div class="reset">
+                    <p><strong>Paul Torrealba:</strong> Me genera mucha confianza el respaldo de las entidades que lo
+                        integran.</p>
+                    <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
+                    <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
+                    <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
+                    <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
+                    <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
+
+                </div>
+                <div class="reset">
+                    <p><strong>Enzo Dupont</strong>: Su amplia cobertura para realizar transaciones permite expandir mi
+                        negocio. ¡Excelente iniciativa!.</p>
+                    <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
+                    <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
+                    <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
+                    <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
+                    <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
+
+                </div>
+                <div class="reset">
+                    <p><strong> Claudia Cruz:</strong> Realizo consignaciones constantemente, por lo que su incentivo de
+                        mejorar las tasas para mis operaciones es fabuloso e ideal para mi.</p>
+                    <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
+                    <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
+                    <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
+                    <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
+                    <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
+                </div>
+                <div class="reset">
+                    <p><strong>Gianni Soracci:</strong> Me ahorra mucho trabajola "programación de envíos", además me
+                        permite coodinar mis gastos del mes.</p>
+                    <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
+                    <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
+                    <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
+                    <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
+                    <img src="assets/iconos.png/estrella.png" width="30rem" height="30rem" alt="">
+
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer class="container">
+        <ul class="social-media">
+            <li class="element">
+                <img src="assets/iconos.png/facebook-circle-fill.png" alt="icono de facebook">
+            </li>
+            <li class="element">
+                <img src="assets/iconos.png/instagram-fill.png" alt="icono de instagram">
+            </li>
+            <li class="element">
+                <img src="assets/iconos.png/twitter-fill.png" alt="icono de twiter">
+            </li>
+            <li class="element">
+                <img src="assets/iconos.png/youtube-fill.png" alt="icono de youtube">
+            </li>
+        </ul>
+        <ul class="item">
+            <li class="menu-item">
+                <p>Siguenos</p>
+            </li>
+            <li class=" menu-item">
+                <p>Contáctanos</p>
+            </li>
+        </ul>
+        <h4 class="derechos">&copy;copyright 2024 Divisas|Todos los derechos reservados.</h4>
+
+    </footer>
+
+    <script src="script/ventanas.js"></script>
 </body>
+
 </html>

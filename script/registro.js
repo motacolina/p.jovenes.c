@@ -23,6 +23,3 @@ document.getElementById("apartado").addEventListener("submit", function (event) 
 
     window.location.href ="../html/usuario.html";
 });
-    
-    
-    
