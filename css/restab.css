@@ -4,7 +4,7 @@ body.aire {
     justify-content: center;
     margin: 0;
     padding: 0;
-    background-image: url(/assets/img.jpg/edificio.jpg);
+    background-image: url(../assets/img.jpg/edificio.jpg);
     background-size: cover;
 }
 
